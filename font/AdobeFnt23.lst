@@ -1,0 +1,402 @@
+%!Adobe-FontList 1.23
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Cinzel-Regular
+FamilyName:Cinzel
+StyleName:Regular
+FullName:Cinzel Regular
+MenuName:Cinzel
+FamilyPrefix:CinzelRoman
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\brago\OneDrive\Desktop\PROYECTO 1.0\Font\Cinzel.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:TrueTypeVariableFont
+FileLength:124700
+FileModTime:1679424466
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Cinzel
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Neuton-Bold
+FamilyName:Neuton
+StyleName:Bold
+FullName:Neuton Bold
+MenuName:Neuton
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\brago\OneDrive\Desktop\PROYECTO 1.0\Font\Neuton-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:58148
+FileModTime:1692985884
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Neuton
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Neuton-ExtraBold
+FamilyName:Neuton
+StyleName:ExtraBold
+FullName:Neuton ExtraBold
+MenuName:Neuton ExtraBold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\brago\OneDrive\Desktop\PROYECTO 1.0\Font\Neuton-ExtraBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:59576
+FileModTime:1692985884
+WeightClass:800
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Neuton ExtraBold
+NameArray:0,Win,16,Neuton
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Neuton-ExtraLight
+FamilyName:Neuton
+StyleName:ExtraLight
+FullName:Neuton ExtraLight
+MenuName:Neuton ExtraLight
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\brago\OneDrive\Desktop\PROYECTO 1.0\Font\Neuton-ExtraLight.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:51724
+FileModTime:1692985884
+WeightClass:275
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Neuton ExtraLight
+NameArray:0,Win,16,Neuton
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Neuton-Italic
+FamilyName:Neuton
+StyleName:Italic
+FullName:Neuton Italic
+MenuName:Neuton
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\brago\OneDrive\Desktop\PROYECTO 1.0\Font\Neuton-Italic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:60480
+FileModTime:1692985884
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Neuton
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Neuton-Light
+FamilyName:Neuton
+StyleName:Light
+FullName:Neuton Light
+MenuName:Neuton Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\brago\OneDrive\Desktop\PROYECTO 1.0\Font\Neuton-Light.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:51832
+FileModTime:1692985884
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Neuton Light
+NameArray:0,Win,16,Neuton
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Neuton-Regular
+FamilyName:Neuton
+StyleName:Regular
+FullName:Neuton Regular
+MenuName:Neuton
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\brago\OneDrive\Desktop\PROYECTO 1.0\Font\Neuton-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:62356
+FileModTime:1692985884
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Neuton
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\brago\OneDrive\Desktop\PROYECTO 1.0\Font\OFL.txt
+FileModTime:1700761704
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\brago\OneDrive\Desktop\PROYECTO 1.0\Font\README.txt
+FileModTime:1700761704
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Thin
+FamilyName:Roboto
+StyleName:Thin
+FullName:Roboto Thin
+MenuName:Roboto Thin
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\brago\OneDrive\Desktop\PROYECTO 1.0\Font\Roboto1.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:168488
+FileModTime:1700757404
+WeightClass:250
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Roboto Thin
+NameArray:0,Win,16,Roboto
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RoadRage-Regular
+FamilyName:Road Rage
+StyleName:Regular
+FullName:Road Rage Regular
+MenuName:Road Rage
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\brago\OneDrive\Desktop\PROYECTO 1.0\Font\Roboto2.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:426976
+FileModTime:1700757376
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Road Rage
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoFlex-Regular
+FamilyName:Roboto Flex
+StyleName:Regular
+FullName:Roboto Flex Regular
+MenuName:Roboto Flex
+FamilyPrefix:RobotoFlexNormalNormalNormalNormalNormalNormalNormalNormalNormalDefault
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\brago\OneDrive\Desktop\PROYECTO 1.0\Font\RobotoFlex.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:TrueTypeVariableFont
+FileLength:1654412
+FileModTime:1673038636
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Roboto Flex
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Cinzel-Black
+FamilyName:Cinzel
+StyleName:Black
+FullName:Cinzel Black
+MenuName:Cinzel Black
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\brago\OneDrive\Desktop\PROYECTO 1.0\Font\static\Cinzel-Black.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:77080
+FileModTime:1679424466
+WeightClass:900
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Cinzel Black
+NameArray:0,Win,16,Cinzel
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Cinzel-Bold
+FamilyName:Cinzel
+StyleName:Bold
+FullName:Cinzel Bold
+MenuName:Cinzel
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\brago\OneDrive\Desktop\PROYECTO 1.0\Font\static\Cinzel-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:77056
+FileModTime:1679424466
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Cinzel
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Cinzel-ExtraBold
+FamilyName:Cinzel
+StyleName:ExtraBold
+FullName:Cinzel ExtraBold
+MenuName:Cinzel ExtraBold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\brago\OneDrive\Desktop\PROYECTO 1.0\Font\static\Cinzel-ExtraBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:77132
+FileModTime:1679424466
+WeightClass:800
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Cinzel ExtraBold
+NameArray:0,Win,16,Cinzel
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Cinzel-Medium
+FamilyName:Cinzel
+StyleName:Medium
+FullName:Cinzel Medium
+MenuName:Cinzel Medium
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\brago\OneDrive\Desktop\PROYECTO 1.0\Font\static\Cinzel-Medium.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:76924
+FileModTime:1679424466
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Cinzel Medium
+NameArray:0,Win,16,Cinzel
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Cinzel-Regular
+FamilyName:Cinzel
+StyleName:Regular
+FullName:Cinzel Regular
+MenuName:Cinzel
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\brago\OneDrive\Desktop\PROYECTO 1.0\Font\static\Cinzel-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:76644
+FileModTime:1679424466
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Cinzel
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Cinzel-SemiBold
+FamilyName:Cinzel
+StyleName:SemiBold
+FullName:Cinzel SemiBold
+MenuName:Cinzel SemiBold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\brago\OneDrive\Desktop\PROYECTO 1.0\Font\static\Cinzel-SemiBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:77016
+FileModTime:1679424466
+WeightClass:600
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Cinzel SemiBold
+NameArray:0,Win,16,Cinzel
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:RobotoFlex-Regular
+FamilyName:Roboto Flex
+StyleName:Regular
+FullName:Roboto Flex Regular
+MenuName:Roboto Flex
+FamilyPrefix:RobotoFlex
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\brago\OneDrive\Desktop\PROYECTO 1.0\Font\static\RobotoFlex-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:TrueTypeVariableFont
+FileLength:109860
+FileModTime:1673038636
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Roboto Flex
+%EndFont
+

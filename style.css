@@ -1,0 +1,1196 @@
+h1{
+    font-size: 40px;
+}
+
+
+body {
+    background: #EAEDED;
+    font-family: Neuton;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contenedor {
+    margin: auto;
+    width: 90%;
+    max-width: 1200px;
+}
+
+main article {
+    background: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    height: 1000px;
+}
+
+/* ------------------------- */
+/* Enlaces del NAV */
+/* ------------------------- */
+.menu {
+    background: #232F3E;
+    padding: 5px 0;
+    margin-bottom: 20px;
+}
+
+.menu .contenedor-botones-menu {
+    /* display: flex; */
+    display: none;
+    justify-content: space-between;
+}
+
+.menu .contenedor-botones-menu button {
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    display: inline-block;
+    cursor: pointer;
+    background: none;
+}
+
+
+.menu .contenedor-botones-menu .btn-menu-cerrar.activo {
+    display: inline-block;
+}
+
+.menu .contenedor-enlaces-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu .btn-departamentos {
+    color: #fff;
+    padding: 7px;
+    display: flex;
+    align-items: flex-end;
+    font-size: 12px;
+    cursor: default;
+}
+
+
+
+
+
+.menu .btn-departamentos span {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.menu .contenedor-enlaces-nav .enlaces a {
+    color: #ccc;
+    border: 1px solid transparent;
+    padding: 7px;
+    border-radius: 3px;
+    font-size: 17px;
+    transition:0.4s;
+}
+
+.menu .contenedor-enlaces-nav .enlaces a:hover {
+    color:white;
+    transition:0.9s;
+}
+
+/* ------------------------- */
+/* GRID */
+/* ------------------------- */
+
+/* ------------------------- */
+/* Categorias */
+/* ------------------------- */
+
+
+
+
+
+/* ------------------------- */
+/* Mediaqueies */
+/* ------------------------- */
+@media screen and (max-width: 1000px) {
+    .menu .contenedor-enlaces-nav {
+        padding: 0 10px;
+    }
+
+
+}
+
+@media screen and (max-width: 800px) {
+    
+
+    .menu .contenedor-botones-menu {
+        display: flex;
+    }
+
+    .menu .contenedor-enlaces-nav {
+        padding: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        left: 0;
+        background: #232F3F;
+        height: 100vh;
+        width: 80%;
+        z-index: 2000;
+        transition: .3s ease all;
+        transform: translate(-100%);
+    }
+
+    .menu .contenedor-enlaces-nav.activo {
+        transform: translate(0%);
+    }
+
+    .menu .btn-departamentos {
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+        
+    }
+
+    .menu .btn-departamentos i {
+        position: static;
+        margin-left: 20px;
+        transform: rotate(-90deg);
+
+    }
+
+    .menu .enlaces {
+        width: 100%;
+    }
+
+    .menu .enlaces a {
+        display: block;
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+ 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo{
+    font-size: 35px;
+    padding: 10px;
+}
+
+
+.hero-section {
+    background: url(hero-bg.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+}
+
+.hero-section:before {
+    background-color: rgba(0, 0, 0, 0.6);
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.hero-section .container {
+    height: 100vh;
+    z-index: 1;
+    position: relative;
+}
+
+.hero-section h1 {
+    font-size: 1.5em;
+}
+
+.hero-section h2 {
+    font-size: 1.2em;
+}
+
+.header{
+    background-color:#1b3039;
+    display:flex;
+  
+    align-items:center;
+    height: 85px;
+  
+}
+
+
+
+@font-face{
+        font-family: Cinzel;
+        src:url(font/Cinzel.ttf);
+        font-weight:bold;
+        font-style:bold;
+}
+
+@font-face{
+        font-family: Neuton;
+        src:url(font/Neuton-Light.ttf);
+        font-weight:bold;
+        font-style:bold;
+}
+
+h2{
+        font-family: Cinzel;
+        font-weight:;
+}
+
+
+p{
+        font-family: Neuton;
+        font-weight:;
+}
+
+body   {
+        
+       
+}
+
+footer .titulo{
+         font-family: Neuton;
+       src:url(font/Neuton-Light.ttf);
+        font-weight:bold;
+        font-style:bold;
+       
+}
+
+
+.color2 {
+        background: gray;
+        color: ;
+}
+
+
+.pie-pagina {
+    width:100%;
+    background-color:#0a141d;
+        
+}
+.adicional {
+    width:100%;
+    background-color:darkred;
+    }
+
+.footer1{
+    background: #000;
+    width:100%;
+    color:#fff;
+}
+.footer-fila1{
+    background: #0000;
+}
+
+.bg-redark{
+    background-color: #161616;
+        align-items: center;
+        color: #fff;
+        padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 17pz;
+    color: whitesmoke;
+    transition-duration: 0.3s;
+    opacity: .9;
+}
+p{
+    font-size: 17px;
+}
+a:hover{
+    color:white;
+    transition-duration: 0.3s;
+    opacity: 1.0;
+    
+}
+i{
+    font-size: 25 px ;
+}
+
+.galeria{
+    font-family: Neuton;
+        font-weight:bold;
+        font-style:bold;
+        border: none;
+}
+.galeria h1{
+    
+    font-weight: 300;
+}
+.contenedor-imagenes{
+    
+    width:100%;
+    
+}
+.contenedor-imagenes .imagen{
+   position: relative;
+}
+.imagen img{
+    width:100%;
+    height: 100%;
+}
+
+
+
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.1) ;
+    transition: .2s ease;
+    overflow: hidden;
+
+}
+.overlay h2{
+    color:#fff;
+    font-size: 100%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+   
+}
+.imagen:hover .overlay{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s ease;
+}
+
+
+
+/* SVG ESTRUCTURA*/
+/* DIVISIONES CENTRALES */
+.uno rect{
+    transition: 1.0s ease;
+    stroke:#FA3D3D;
+    cursor: pointer;
+    stroke-width:10px;
+}
+
+.uno rect:hover{
+    stroke-width:35px;
+    stroke:#FA3D3D;
+    transition: 0.9s ease;
+}
+/* DIVISIONES CENTRALES */
+
+/* DIVISIONES CENTRALES */
+.dos rect{
+    transition: 1.0s ease;
+    stroke:#EFD813;
+    cursor: pointer;
+    stroke-width:10px;
+}
+
+.dos rect:hover{
+    stroke-width:35px;
+    stroke:#EFD813;
+    transition: 0.9s ease;
+}
+/* DIVISIONES CENTRALES */
+
+/* COLGAROPA */
+.tres rect{
+    transition: 1.0s ease;
+    stroke:#FF5733;
+    cursor: pointer;
+    fill: #C8CD80 !important;
+    stroke-width:10px;
+}
+.tres rect:hover{
+    stroke-width:35px;
+    stroke:#FF5733;
+    transition: 0.9s ease;
+}
+.tres path{
+    transition: 1.0s ease;
+    stroke:#FF5733;
+    cursor: pointer;
+    stroke-width:10px;
+}
+.tres path:hover{
+    stroke-width:35px;
+    stroke:#FF5733;
+    transition: 0.9s ease;
+}
+/* COLGAROPA */
+
+/* DIVISIONES */
+.cuatro rect{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#20B2AA;
+}
+.cuatro rect:hover{
+    stroke-width:35px;
+    stroke:#20B2AA;
+    transition: 0.9s ease;
+}
+/* DIVISIONES */
+
+/* DIVISION CENTRAL INFERIOR */
+.cuatro .CENTRAL-INFERIOR{
+    stroke-width:10px;
+    stroke:#6AF23E;
+    transition: 0.9s ease;
+}
+.cuatro .CENTRAL-INFERIOR:hover{
+    stroke-width:35px;
+    stroke:#6AF23E;
+    transition: 0.9s ease;
+}
+/* DIVISION CENTRAL INFERIOR */
+
+/* TORNILLO MADERA ESQUINEROS */
+.TORNILLOSMAD circle{
+    transition: 1.0s ease;
+    cursor: pointer;
+    stroke-width:15px;
+    stroke:#20B2AA;
+}
+.TORNILLOSMAD circle:hover{
+    stroke-width:35px;
+    stroke:#20B2AA;
+    transition: 0.9s ease;
+}
+/* TORNILLO MADERA ESQUINEROS */
+
+/* TORNILLO MADERA EXTERNO INTERIOR */
+.TORNILLOSMAD2 circle{
+    transition: 1.0s ease;
+    cursor: pointer;
+    stroke-width:15px;
+    stroke:#20B2AA;
+}
+.TORNILLOSMAD2 circle:hover{
+    stroke-width:35px;
+    stroke:#20B2AA;
+    transition: 0.9s ease;
+}
+/* TORNILLO MADERA EXTERNO INTERIOR */
+
+/* TORNILLO COLGAROPA */
+.TORNILLOSMET1 circle{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#F4A460;
+}
+.TORNILLOSMET1 circle:hover{
+    stroke-width:35px;
+    stroke:#F4A460;
+    transition: 0.9s ease;
+}
+/* TORNILLO COLGAROPA */
+
+/* TORNILLO SOPORTES ANGULOS */
+.TORNILLOSMET2 circle{
+    transition: 1.0s ease;
+    cursor: pointer;
+     stroke-width:10px;
+    stroke:#B8860B;
+}
+.TORNILLOSMET2 circle:hover{
+    stroke-width:35px;
+    stroke:#B8860B;
+    transition: 0.9s ease;
+}
+/* TORNILLO SOPORTES ANGULOS */
+/* SVG ESTRUCTURA */
+
+
+
+/* PROGRAMACION PARA SELECTOR PRIMERO */
+
+/* PRIMER SELECTOR */
+.UNO1{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#FA3D3D;
+}
+.UNO1:hover{
+    stroke-width:35px;
+    stroke:#FA3D3D;
+    transition: 0.9s ease;
+}
+
+.DOS1{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#EFD813;
+}
+.DOS1:hover{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:35px;
+    stroke:#EFD813;
+    stroke-width:35px;
+}
+
+.selectable-elements {
+    .box[data-active="true"]{
+          stroke-width:35px;
+          stroke:#FA3D3D;
+          transition: 0.9s ease;      
+          }
+          .UNO1[data-active="true"]{
+          stroke-width:35px;
+          stroke:#FA3D3D;
+          transition: 0.9s ease;
+          }
+          .DOS1[data-active="true"]{
+          stroke-width:35px;
+          stroke:#EFD813;
+          transition: 0.9s ease;
+          }      
+          .TRES1[data-active="true"]{
+          stroke-width:45px;
+          stroke:#105FE2;
+          transition: 0.9s ease;
+          }
+           .CUATRO1[data-active="true"]{
+          stroke-width:35px;
+          stroke:#20B2AA;
+          transition: 0.9s ease;
+          }
+           .CINCO1[data-active="true"]{
+          stroke-width:35px;
+          stroke:#6AF23E;
+          transition: 0.9s ease;
+          }
+           .SEIS1[data-active="true"]{
+          stroke-width:35px;
+          stroke:#FF5733;
+          transition: 0.9s ease;
+          }
+
+
+          .UNO2[data-active="true"]{
+          stroke-width:40px;
+          stroke:#18FFDF;
+          transition: 0.9s ease;
+          }
+          .DOS2[data-active="true"]{
+          stroke-width:35px;
+          stroke:#FF14FF;
+          transition: 0.9s ease;
+          }      
+          .TRES2[data-active="true"]{
+          stroke-width:45px;
+          stroke:#B8860B;
+          transition: 0.9s ease;
+          }
+           .CUATRO2[data-active="true"]{
+          stroke-width:35px;
+          stroke:#FDB313;
+          transition: 0.9s ease;
+          }
+           .CINCO2[data-active="true"]{
+          stroke-width:35px;
+          stroke:#ADFF2F;
+          transition: 0.9s ease;
+          }
+        .SEIS2[data-active="true"]{
+          stroke-width:35px;
+          stroke:#309C02;
+          transition: 0.9s ease;
+          }
+
+          .UNO3[data-active="true"]{
+          stroke-width:40px;
+          stroke:#0034FF;
+          transition: 0.9s ease;
+          }
+          .DOS3[data-active="true"]{
+          stroke-width:35px;
+          stroke:#ECFF00;
+          transition: 0.9s ease;
+          }      
+          .TRES3[data-active="true"]{
+          stroke-width:45px;
+          stroke:#0034FF;
+          transition: 0.9s ease;
+          }
+           .CUATRO3[data-active="true"]{
+          stroke-width:35px;
+          stroke:#ECFF00;
+          transition: 0.9s ease;
+          }
+          .CINCO3[data-active="true"]{
+          stroke-width:35px;
+          stroke:#0034FF;
+          transition: 0.9s ease;
+          }
+          .SEIS3[data-active="true"]{
+          stroke-width:35px;
+          stroke:#ECFF00;
+          transition: 0.9s ease;
+          }
+
+     }
+
+
+
+}
+/*ESTRUCTURA DE SELECTOR*/
+
+
+
+
+
+
+
+-------------------------------------
+
+
+
+.DOS1:hover{
+    stroke-width:35px;
+    stroke:#FF14FF;
+    transition: 0.9s ease;
+}
+
+/* TERCERO SELECTOR */
+.TRES1{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#105FE2;
+}
+
+.TRES1:hover{
+    stroke-width:35px;
+    stroke:#105FE2;
+    transition: 0.9s ease;
+}
+/* TERCERO SELECTOR */
+
+/* CUARTO SELECTOR */
+.CUATRO1{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#20B2AA;
+}
+.CUATRO1:hover{
+    stroke-width:35px;
+    stroke:#20B2AA;
+    transition: 0.9s ease;
+}
+/* CUARTO SELECTOR */
+
+
+/* QUINTO SELECTOR */
+.CINCO1{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#6AF23E;
+}
+.CINCO1:hover{
+    stroke-width:35px;
+    stroke:#6AF23E;
+    transition: 0.9s ease;
+}
+/* QUINTO SELECTOR */
+
+/* SEXTO SELECTOR */
+.SEIS1{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#FF5733;
+}
+.SEIS1:hover{
+    stroke-width:35px;
+    stroke:#FF5733;
+    transition: 0.9s ease;
+}
+/* SEXTO SELECTOR */
+
+/* PROGRAMACION PARA SELECTOR PRIMERO */
+
+
+
+/* SVG FRONTAL */
+/* PUERTAS ARMARIO FRONTAL EXTREMO INTERNA/EXTERNA */
+.PUERTAS-ARMARIO{
+    transition: 1.0s ease;
+    stroke-width:13px;
+    stroke:#F9382C;
+    cursor: pointer;
+}
+.PUERTAS-ARMARIO:hover{
+    stroke-width:35px;
+    stroke:#F9382C;
+    transition: 0.9s ease;
+}
+.PUERTAS-ARMARIO rect{
+    transition: 1.0s ease;
+     stroke-width:13px;
+    stroke:#18FFDF;
+    cursor: pointer;
+}
+.PUERTAS-ARMARIO rect:hover{
+    stroke-width:35px;
+    stroke:#18FFDF;
+    transition: 0.9s ease;
+}
+/* PUERTAS ARMARIO FRONTAL EXTREMO INTERNA/EXTERNA */
+
+/* PUERTAS ARMARIO FRONTAL CENTRAL */
+.PUERTA-CENTRAL1 rect{
+     transition: 1.0s ease;
+     cursor: pointer;
+     stroke-width:13px;
+     stroke:#FF14FF;
+
+}
+.PUERTA-CENTRAL1 rect:hover{
+    stroke-width:35px;
+    stroke:#FF14FF;
+    transition: 0.9s ease;
+
+}
+/* PUERTAS ARMARIO FRONTAL CENTRAL */
+
+/* MANIJAS */
+.COLGADORES rect{
+    transition: 1.0s ease;
+    cursor: pointer;
+    stroke-width:13px;
+    stroke:#ADFF2F;
+}
+.COLGADORES rect:hover{
+    stroke-width:35px;
+    stroke:#ADFF2F;
+    transition: 0.9s ease;
+}
+/* MANIJAS */
+
+/* TACOS - SOPORTE PISO */
+.TACOS polygon{
+    transition: 1.0s ease;
+    cursor: pointer;
+    stroke-width:13px;
+    stroke:#309C02;
+}
+.TACOS polygon:hover{
+    stroke-width:35px;
+    stroke:#309C02;
+    transition: 0.9s ease;
+}
+/* TACOS - SOPORTE PISO */
+
+/* INFORMACION CERRADURA */
+.LOCK circle{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#B8860B;
+}
+.LOCK circle:hover{
+    stroke-width:35px;
+    stroke:#B8860B;
+    transition: 0.9s ease;
+    
+}
+/* INFORMACION CERRADURA */
+
+/* INFORMACION CAJON */
+.BOX rect{
+    transition: 1.0s ease;
+    stroke-width:10px;
+     ursor: pointer;
+     stroke:#FDB313;
+}
+.BOX rect:hover{
+    stroke-width:35px;
+    stroke:#FDB313;
+    transition: 0.9s ease;
+}
+/* INFORMACION CAJON */
+/* SVG FRONTAL */
+
+
+/* PROGRAMACION PARA SELECTOR SEGUNDO */
+
+/* PRIMER SELECTOR */
+.UNO2{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#18FFDF;
+}
+.UNO2:hover{
+    stroke-width:35px;
+    stroke:#18FFDF;
+    transition: 0.9s ease;
+}
+/* PRIMER SELECTOR */
+
+/* SEGUNDO SELECTOR */
+.DOS2{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#FF14FF;
+}
+.DOS2:hover{
+    stroke-width:35px;
+    stroke:#FF14FF;
+    transition: 0.9s ease;
+}
+/* SEGUNDO SELECTOR */
+
+/* TERCERO SELECTOR */
+.TRES2{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#B8860B;
+}
+
+.TRES2:hover{
+    stroke-width:35px;
+    stroke:#B8860B;
+    transition: 0.9s ease;
+}
+/* TERCERO SELECTOR */
+
+/* CUARTO SELECTOR */
+.CUATRO2{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#FDB313;
+}
+.CUATRO2:hover{
+    stroke-width:35px;
+    stroke:#FDB313;
+    transition: 0.9s ease;
+}
+/* CUARTO SELECTOR */
+
+/* QUINTO SELECTOR */
+.CINCO2{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#ADFF2F;
+}
+.CINCO2:hover{
+    stroke-width:35px;
+    stroke:#ADFF2F;
+    transition: 0.9s ease;
+}
+/* QUINTO SELECTOR */
+
+/* SEXTO SELECTOR */
+.SEIS2{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#309C02;
+}
+.SEIS2:hover{
+    stroke-width:35px;
+    stroke:#309C02;
+    transition: 0.9s ease;
+}
+/* SEXTO SELECTOR */
+
+/* PROGRAMACION PARA SELECTOR SEGUNDO */
+
+
+
+
+/* SVG ESPALDAR */
+/* INFORMACION TRIPLEX ESPALDAR */
+.ESPALDAR rect{
+    transition: 1.0s ease;
+     stroke-width:10px;
+    stroke:#0034FF;
+}
+.ESPALDAR rect:hover{
+    stroke-width:35px;
+    stroke:#0034FF;
+    transition: 0.9s ease;
+}
+/* INFORMACION TRIPLEX ESPALDAR */
+
+/* INFORMACION PUNTILLA ESPALDAR */
+.CIRCULO circle{
+    stroke-width:10px;
+    stroke:#ECFF00;
+    transition: 0.9s ease;
+}
+.CIRCULO circle:hover{
+    stroke-width:35px;
+    stroke:#ECFF00;
+    transition: 0.9s ease;
+}
+/* INFORMACION PUNTILLA ESPALDAR */
+/* SVG ESPALDAR */
+
+
+
+
+/* PROGRAMACION PARA SELECTOR TERCERO */
+
+/* PRIMER SELECTOR */
+.UNO3{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#0034FF;
+}
+.UNO3:hover{
+    stroke-width:35px;
+    stroke:#0034FF;
+    transition: 0.9s ease;
+}
+/* PRIMER SELECTOR */
+
+/* SEGUNDO SELECTOR */
+.DOS3{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#ECFF00;
+}
+.DOS3:hover{
+    stroke-width:35px;
+    stroke:#ECFF00;
+    transition: 0.9s ease;
+}
+/* SEGUNDO SELECTOR */
+
+/* TERCERO SELECTOR */
+.TRES3{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#0034FF;
+}
+
+.TRES3:hover{
+    stroke-width:35px;
+    stroke:#0034FF;
+    transition: 0.9s ease;
+}
+/* TERCERO SELECTOR */
+
+/* CUARTO SELECTOR */
+.CUATRO3{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#ECFF00;
+}
+.CUATRO3:hover{
+    stroke-width:35px;
+    stroke:#ECFF00;
+    transition: 0.9s ease;
+}
+/* CUARTO SELECTOR */
+
+/* QUINTO SELECTOR */
+.CINCO3{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#0034FF;
+}
+.CINCO3:hover{
+    stroke-width:35px;
+    stroke:#0034FF;
+    transition: 0.9s ease;
+}
+/* QUINTO SELECTOR */
+
+/* SEXTO SELECTOR */
+.SEIS3{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#ECFF00;
+}
+.SEIS3:hover{
+    stroke-width:35px;
+    stroke:#ECFF00;
+    transition: 0.9s ease;
+}
+/* SEXTO SELECTOR */
+
+/* PROGRAMACION PARA SELECTOR TERCERO */
+
+
+
+/* SECCION FOOTER */
+text1 h5{
+       font-family: Neuton;
+       src:url(font/Neuton-Light.ttf);
+        font-weight:bold;
+        font-style:bold;
+        font-size:30px;
+}
+.text-uppercase{
+       font-family: Neuton;
+       src:url(font/Neuton-Light.ttf);
+        font-weight:bold;
+        font-style:bold;
+        font-size:30px;
+        align-items: center;
+}
+.text5 p{
+        font-family: Neuton;
+       src:url(font/Neuton-Light.ttf);
+        font-weight:bold;
+        font-style:bold;
+        font-size:25px;
+        align-items: center;
+}
+.text5 .titular{
+        font-family: Neuton;
+       src:url(font/Neuton-Light.ttf);
+        font-weight:bold;
+        font-style:bold;
+        font-size:30px;
+        align-items: center;
+}
+.text5 .titular2{
+        font-family: Neuton;
+       src:url(font/Neuton-Light.ttf);
+        font-weight:bold;
+        font-style:bold;
+        font-size:25px;
+}
+.columna3 a{
+    font-size:25px;
+}
+.row1{
+    font-family: Neuton;
+       src:url(font/Neuton-Light.ttf);
+        font-weight:bold;
+        font-style:bold;
+        font-size:25px;
+}
+.columna3 .imgn{
+    max-width:20px;
+    height: 20px;
+}
+.bg-redark1{
+    background-color: #BDC2E4;
+    font-size: 100%;
+    color:#fff;
+}
+.columna5 img{
+    width:170px;
+}
+.fila1 div{
+    display:none;
+}
+.fila1 > .mapa{
+    display:block;
+}
+
+.footer1{
+        background: #000;
+    }
+
+footer{
+    background: #000;
+}
+/* SECCION FOOTER */
+
+
+
+
+/* INFORMACION MODAL */
+.columna3 li{
+    padding: 10px;
+}
+
+.text5{
+    font-size: 50px;
+}
+svg {
+  max-width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+.state {
+}
+
+.state:hover {
+  cursor: pointer;
+}
+.modal {
+  text-align: center;
+}
+.modal-content {
+  width: 100%;
+}
+.hq {
+  color: #CC0033;
+}
+
+.alerta1{
+    background:#8E8671;
+    padding: 12px;
+    border-radius: 10px;
+    color:#ffff;
+}
+.form-select{
+  width: 150px;
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+/* INFORMACION MODAL */
+

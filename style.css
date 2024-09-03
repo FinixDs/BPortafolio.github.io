@@ -670,13 +670,12 @@ i{
           transition: 0.9s ease;
           }
 
+
      }
 
 
 
 }
-/*ESTRUCTURA DE SELECTOR*/
-
 
 
 
@@ -1192,5 +1191,1073 @@ svg {
   box-sizing: border-box;
   border-radius: 10px;
 }
+
+.estilo{
+  width: 150px;
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
 /* INFORMACION MODAL */
 
+/* -------------------------------------------------------- */
+/* -------------------------------------------------------- */
+/* -------------------------------------------------------- */
+/* -------------------------------------------------------- */
+
+
+
+
+/* INFORMACION STYLE PIECES */
+/* PRIMER SELECTOR */
+.SELECTOR-ELEMENTOS-MADERA ellipse{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:50px;
+    stroke:#dad528;
+    
+}
+.SELECTOR-ELEMENTOS-MADERA ellipse:hover{
+    stroke-width:70px;
+    stroke:#dad528;
+    transition: 0.9s ease;
+}
+/* PRIMER SELECTOR */
+
+/* SEGUNDO SELECTOR */
+.SELECTOR-PUERTAS ellipse{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:50px;
+    stroke:#3f47f9;
+}
+.SELECTOR-PUERTAS ellipse:hover{
+    stroke-width:70px;
+    stroke:#3f47f9;
+    transition: 0.9s ease;
+}
+/* SEGUNDO SELECTOR */
+
+/* TERCERO SELECTOR */
+.SELECTOR-TRIPLEX ellipse{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:50px;
+    stroke:#fd2929;
+}
+
+.SELECTOR-TRIPLEX ellipse:hover{
+    stroke-width:70px;
+    stroke:#fd2929;
+    transition: 0.9s ease;
+}
+/* TERCERO SELECTOR */
+
+
+
+
+
+/*ESTRUCTURA DE SELECTOR PIEZAS*/
+
+
+
+.selectable-elements{
+    .box[data-active="true"]{
+   
+          }
+          .SELECTOR-TRIPLEX[data-active="true"]{
+          stroke-width:80px;
+          stroke:#fd2929;
+          transition: 0.9s ease;
+          }
+          .SELECTOR-PUERTAS[data-active="true"]{
+          stroke-width:45px;
+          stroke:#3f47f9;
+          transition: 0.9s ease;
+          }
+          .SELECTOR-ELEMENTOS-MADERA[data-active="true"]{
+          stroke-width:45px;
+          stroke:#dad528;
+          transition: 0.9s ease;
+         }
+          
+
+     }
+
+
+
+}
+
+/*FIN ESTRUCTURA DE SELECTOR PIEZAS*/
+
+/*COLOR Y HOVER CONTORNO OBJETO TRIPLEX*/
+
+.TRIPLEX g{
+    transition: 1.0s ease;
+    stroke-width:20px;
+    cursor: pointer;
+    stroke:#fd2929;
+
+}
+
+.dificil g{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#fd2929;
+}
+
+.dificil g:hover{
+    transition: 1.0s ease;
+    stroke-width:45px;
+    cursor: pointer;
+    stroke:#fd2929;
+}
+
+/*FIN COLOR Y HOVER CONTORNO OBJETO TRIPLEX*/
+
+/*COLOR Y HOVER CONTORNO OBJETO PUERTAS*/
+.PUERTAS g{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#3f47f9;
+}
+
+.PUERTAS g:hover{
+    transition: 1.0s ease;
+    stroke-width:45px;
+    stroke:#3f47f9;
+}
+
+/*FIN COLOR Y HOVER CONTORNO OBJETO PUERTAS*/
+
+
+/*COLOR Y HOVER CONTORNO OBJETO DIVISION-HORIZONTAL-INTERNA*/
+.DIVISION-HORIZONTAL-INTERNA g{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#dad528;
+
+}
+
+.DIVISION-HORIZONTAL-INTERNA g:hover{
+    transition: 1.0s ease;
+    stroke-width:45px;
+    stroke:#dad528;
+}
+
+/*FIN COLOR Y HOVER CONTORNO OBJETO DIVISION-HORIZONTAL-INTERNA*/
+
+
+
+/*COLOR Y HOVER CONTORNO OBJETO DIVISION-VERTICAL-INTERNA*/
+.DIVISION-VERTICAL-INTERNA g{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#dad528;
+
+}
+
+.DIVISION-VERTICAL-INTERNA g:hover{
+    transition: 1.0s ease;
+    stroke-width:45px;
+    stroke:#dad528;
+}
+
+/*FIN COLOR Y HOVER CONTORNO OBJETO DIVISION-VERTICAL-INTERNA*/
+
+/*COLOR Y HOVER CONTORNO OBJETO LATERALES*/
+.LATERALES g{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#dad528;
+
+}
+
+.LATERALES g:hover{
+    transition: 1.0s ease;
+    stroke-width:45px;
+    stroke:#dad528;
+}
+
+/*FIN COLOR Y HOVER CONTORNO OBJETO LATERALES*/
+
+
+
+/*COLOR Y HOVER CONTORNO OBJETO BASE-TECHO*/
+.BASE-TECHO g{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#dad528;
+
+}
+
+.BASE-TECHO g:hover{
+    transition: 1.0s ease;
+    stroke-width:45px;
+    stroke:#dad528;
+}
+
+/*FIN COLOR Y HOVER CONTORNO OBJETO BASE-TECHO*/
+
+
+/*COLOR Y HOVER CONTORNO OBJETO TABLITA*/
+.TABLITA g{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#dad528;
+
+}
+
+.TABLITA g:hover{
+    transition: 1.0s ease;
+    stroke-width:45px;
+    stroke:#dad528;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO TABLITA*/
+
+/*COLOR Y HOVER CONTORNO OBJETO SOPORTE-MUEBLE*/
+.SOPORTE-MUEBLE g{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#dad528;
+
+}
+
+.SOPORTE-MUEBLE g:hover{
+    transition: 1.0s ease;
+    stroke-width:45px;
+    stroke:#dad528;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO SOPORTE-MUEBLE*/
+
+/*COLOR Y HOVER CONTORNO OBJETO SOPORTE-PARED*/
+.SOPORTE-PARED g{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#dad528;
+
+}
+
+.SOPORTE-PARED g:hover{
+    transition: 1.0s ease;
+    stroke-width:45px;
+    stroke:#dad528;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO SOPORTE-PARED*/
+
+/*COLOR Y HOVER CONTORNO OBJETO NAILS*/
+.NAILS circle{
+    transition: 1.0s ease;
+    stroke-width:25px;
+    cursor: pointer;
+    stroke:#3b7c67;
+
+}
+
+.NAILS:hover circle{
+    transition: 1.0s ease;
+    stroke-width:45px;
+    stroke:#3b7c67;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO NAILS*/
+
+/*COLOR Y HOVER CONTORNO OBJETO OBJETO KNOBS*/
+.KNOBS circle{
+    transition: 1.0s ease;
+    stroke-width:25px;
+    cursor: pointer;
+    stroke:#3b7c67;
+
+}
+
+.KNOBS:hover circle{
+    transition: 1.0s ease;
+    stroke-width:45px;
+    stroke:#3b7c67;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO KNOBS*/
+
+/*COLOR Y HOVER CONTORNO OBJETO SCREWS-SUPPORTS*/
+.SCREWS-SUPPORTS circle{
+    transition: 1.0s ease;
+    stroke-width:25px;
+    cursor: pointer;
+    stroke:#3b7c67;
+
+}
+
+.SCREWS-SUPPORTS circle:hover {
+    transition: 1.0s ease;
+    stroke-width:45px;
+    stroke:#3b7c67;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO SCREWS-SUPPORTS*/
+
+/*COLOR Y HOVER CONTORNO OBJETO SCREW-ALL*/
+.SCREWS-ALL ellipse{
+    transition: 1.0s ease;
+    stroke-width:20px;
+    cursor: pointer;
+    stroke:#3b7c67;
+}
+
+.SCREWS-ALL ellipse:hover{
+    transition: 1.0s ease;
+    stroke-width:45px;
+    stroke:#3b7c67;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO SCREW-ALL*/
+
+/*COLOR Y HOVER CONTORNO OBJETO DETALLADO-CORTE-PARED*/
+.DETALLADO-CORTE-PARED g{
+    transition: 1.0s ease;
+    stroke-width:15px;
+    cursor: pointer;
+    stroke:#1ca48d;
+
+}
+
+.DETALLADO-CORTE-PARED g:hover {
+    transition: 1.0s ease;
+    stroke-width:50px;
+    stroke:#1ca48d;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO DETALLADO-CORTE-PARED*/
+
+/*COLOR Y HOVER CONTORNO OBJETO DETALLADO-CORTE-MUEBLE*/
+.DETALLADO-CORTE-MUEBLE g{
+    transition: 1.0s ease;
+    stroke-width:15px;
+    cursor: pointer;
+    stroke:#1ca48d;
+}
+
+.DETALLADO-CORTE-MUEBLE g:hover {
+    transition: 1.0s ease;
+    stroke-width:50px;
+    stroke:#1ca48d;
+}
+
+/*FIN COLOR Y HOVER CONTORNO OBJETO DETALLADO-CORTE-MUEBLE*/
+
+/*COLOR Y HOVER CONTORNO OBJETO BISAGRAS*/
+
+.BISAGRAS path{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#fc7e1a;
+
+}
+.BISAGRAS line{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#fc7e1a;
+
+}
+
+.BISAGRAS ellipse{
+    transition: 1.0s ease;
+    stroke-width:30px;
+    cursor: pointer;
+    stroke:#fc7e1a;
+
+}
+
+.BISAGRAS polygon{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#fc7e1a;
+
+}
+.BISAGRAS .WEY:hover {
+    transition: 1.0s ease;
+    stroke-width:30px;
+    stroke:#fc7e1a;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO BISAGRAS*/
+
+/*COLOR Y HOVER CONTORNO OBJETO SOPORTES*/
+
+.SOPORTES-2 path{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#dcaf36;
+
+}
+.SOPORTES-2 line{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#dcaf36;
+
+}
+
+.SOPORTES-2 ellipse{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#dcaf36;
+
+}
+
+.SOPORTES-2 polygon{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#dcaf36;
+
+}
+.SOPORTES-2 .WEY2:hover {
+    transition: 1.0s ease;
+    stroke-width:30px;
+    stroke:#dcaf36;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO SOPORTES*/
+
+/*COLOR Y HOVER CONTORNO OBJETO SOPORTES*/
+
+.SOPORTES-21 path{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#dcaf36;
+
+}
+.SOPORTES-21 line{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#dcaf36;
+
+}
+
+.SOPORTES-21 ellipse{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#dcaf36;
+
+}
+
+.SOPORTES-21 polygon{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#dcaf36;
+
+}
+.SOPORTES-21 .WEY2:hover {
+    transition: 1.0s ease;
+    stroke-width:30px;
+    stroke:#dcaf36;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO SOPORTES*/
+
+.SELECCION1{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#9149f9;
+}
+.SELECCION1:hover{
+    stroke-width:35px;
+    stroke:#9149f9;
+    transition: 0.9s ease;
+}
+.SELECCION2{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#117539;
+}
+.SELECCION2:hover{
+    stroke-width:35px;
+    stroke:#117539;
+    transition: 0.9s ease;
+}
+.SELECCION3{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#b6da13;
+}
+.SELECCION3:hover{
+    stroke-width:35px;
+    stroke:#b6da13;
+    transition: 0.9s ease;
+}
+.SELECCION4{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#4f84f5;
+}
+.SELECCION4:hover{
+    stroke-width:35px;
+    stroke:#4f84f5;
+    transition: 0.9s ease;
+}
+.SELECCION5{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#ea84f7;
+}
+.SELECCION5:hover{
+    stroke-width:35px;
+    stroke:#ea84f7;
+    transition: 0.9s ease;
+}
+.SELECCION6{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#f2614a;
+}
+.SELECCION6:hover{
+    stroke-width:35px;
+    stroke:#f2614a;
+    transition: 0.9s ease;
+}
+
+.selectable-elements {
+    .box[data-active="true"]{
+          transition: 0.9s ease;      
+          }
+          .SELECCION1[data-active="true"]{
+          stroke-width:35px;
+          stroke:#9149f9;
+          transition: 0.9s ease;
+          }
+          .SELECCION2[data-active="true"]{
+          stroke-width:35px;
+          stroke:#117539;
+          transition: 0.9s ease;
+          }
+          .SELECCION3[data-active="true"]{
+          stroke-width:35px;
+          stroke:#b6da13;
+          transition: 0.9s ease;
+          }
+          .SELECCION4[data-active="true"]{
+          stroke-width:35px;
+          stroke:#4f84f5;
+          transition: 0.9s ease;
+          }
+          .SELECCION5[data-active="true"]{
+          stroke-width:35px;
+          stroke:#ea84f7;
+          transition: 0.9s ease;
+          }
+          .SELECCION6[data-active="true"]{
+          stroke-width:35px;
+          stroke:#f2614a;
+          transition: 0.9s ease;
+          }
+}
+
+.TORNILLERIA-SOPORTES circle{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#f7fa25;
+}
+.TORNILLERIA-SOPORTES circle:hover{
+    stroke-width:35px;
+    stroke:#f7fa25;
+     transition: 0.9s ease;
+}
+.TORNILLERIA-EXTERIOR circle{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#bd00d7;
+}
+.TORNILLERIA-EXTERIOR circle:hover{
+    stroke-width:35px;
+    stroke:#bd00d7;
+     transition: 0.9s ease;
+}
+
+.TORNILLERIA-TABLITA-DELANTERA circle{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#bd00d7;
+}
+.TORNILLERIA-TABLITA-DELANTERA circle:hover{
+    stroke-width:35px;
+    stroke:#bd00d7;
+     transition: 0.9s ease;
+}
+.TORNILLERIA-TABLITAS-TRASERAS circle{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#bd00d7;
+}
+.TORNILLERIA-TABLITAS-TRASERAS circle:hover{
+    stroke-width:35px;
+    stroke:#bd00d7;
+     transition: 0.9s ease;
+}
+.TORNILLERIA-TABLITA-DELANTERA circle{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#bd00d7;
+}
+.TORNILLERIA-TABLITA-DELANTERA circle:hover{
+    stroke-width:35px;
+    stroke:#bd00d7;
+     transition: 0.9s ease;
+}
+.TORNILLERIA-TABLITAS-TRASERAS ellipse{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#bd00d7;
+}
+.TORNILLERIA-TABLITAS-TRASERAS ellipse:hover{
+    stroke-width:35px;
+    stroke:#bd00d7;
+     transition: 0.9s ease;
+}
+
+
+
+.SELECCIONA2 circle{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:30px;
+    stroke:#9a6f0d;
+}
+.SELECCIONA2 circle:hover{
+    stroke-width:50px;
+    stroke:#9a6f0d;
+    transition: 0.9s ease;
+}
+
+.SELECCION-MANIJAS circle{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:30px;
+    stroke:#2557de;
+}
+.SELECCION-MANIJAS circle:hover{
+    stroke-width:50px;
+    stroke:#2557de;
+    transition: 0.9s ease;
+}
+
+.TABLITA-PUERTA g{
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#1efeea;
+    transition: 0.9s ease;
+}
+
+.TABLITA-PUERTA g:hover{
+    stroke-width:50px;
+    stroke:#1efeea;
+    transition: 0.9s ease;
+}
+
+.SCREWS-SUPPORTS1 circle{
+    stroke-width:30px;
+    cursor: pointer;
+    stroke:#1efeea;
+    transition: 1.0s ease;
+}
+
+.SCREWS-SUPPORTS1 circle:hover {
+    transition: 1.0s ease;
+    stroke-width:50px;
+    stroke:#1efeea;
+}
+.selectable-elements { 
+        .box[data-active="true"]{   
+            transition: 0.9s ease;
+        } 
+          
+        .SCREWS-SUPPORTS1[data-active="true"]{
+          stroke-width:35px;
+          stroke:#1efeea;
+          transition: 0.9s ease;
+          }
+          .SELECCIONA2[data-active="true"]{
+          stroke-width:35px;
+          stroke:#9a6f0d;
+          transition: 0.9s ease;
+          }
+          .SELECCIONA3[data-active="true"]{
+          stroke-width:35px;
+          stroke:#2557de;
+          transition: 0.9s ease;
+          }
+        
+}
+.PUERTA-IZQUIERDA-EXTREMA g{
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#9a6f0d;
+    transition: 0.9s ease;
+}
+
+.PUERTA-IZQUIERDA-EXTREMA g:hover{
+    stroke-width:30px;
+    stroke:#9a6f0d;
+    transition: 0.9s ease;
+}
+
+.PUERTA-DERECHA-EXTREMA g{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#9a6f0d;
+}
+.PUERTA-DERECHA-EXTREMA g:hover{
+    transition: 1.0s ease;
+    stroke-width:30px;
+    stroke:#9a6f0d;
+}
+
+.PUERTA-DERECHA-INTERNA g{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#9a6f0d;
+}
+.PUERTA-DERECHA-INTERNA g:hover{
+    transition: 1.0s ease;
+    stroke-width:30px;
+    stroke:#9a6f0d;
+}
+
+.PUERTA-IZQUIERDA-INTERNA g{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#9a6f0d;
+}
+.PUERTA-IZQUIERDA-INTERNA g:hover{
+    transition: 1.0s ease;
+    stroke-width:30px;
+    stroke:#9a6f0d;
+}
+
+/*FIN COLOR Y HOVER CONTORNO OBJETO PUERTAS*/
+
+/*COLOR Y HOVER CONTORNO OBJETO MANIJAS*/
+
+.MANIJA-IZQUIERDA-INTERNA g{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#2557de;
+}
+.MANIJA-IZQUIERDA-INTERNA g:hover{
+    transition: 1.0s ease;
+    stroke-width:30px;
+    stroke:#2557de;
+}
+
+.MANIJA-IZQUIERDA-EXTREMA rect{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#2557de;
+}
+.MANIJA-IZQUIERDA-EXTREMA rect:hover{
+    transition: 1.0s ease;
+    stroke-width:30px;
+    stroke:#2557de;
+}
+
+.MANIJA-DERECHA-INTERNA rect{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#2557de;
+}
+.MANIJA-DERECHA-INTERNA rect:hover{
+    transition: 1.0s ease;
+    stroke-width:30px;
+    stroke:#2557de;
+}
+
+.MANIJA-DERECHA-EXTREMA rect{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#2557de;
+}
+.MANIJA-DERECHA-EXTREMA rect:hover{
+    transition: 1.0s ease;
+    stroke-width:30px;
+    stroke:#2557de;
+}
+
+
+
+/*FIN COLOR Y HOVER CONTORNO OBJETO MANIJAS*/
+
+.Texto{
+    transition: 1.0s ease;
+    stroke-width:30px;
+    stroke:#000;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO MANIJAS---------------------------*/
+
+.SELECCIONC1 circle{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:30px;
+    stroke:#5ee948;
+}
+.SELECCIONC1 circle:hover{
+    stroke-width:50px;
+    stroke:#5ee948;
+    transition: 0.9s ease;
+}
+
+.SELECCIONC2 circle{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:30px;
+    stroke:#033895;
+}
+.SELECCIONC2 circle:hover{
+    stroke-width:50px;
+    stroke:#033895;
+    transition: 0.9s ease;
+}
+
+.SELECCIONC3 circle{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:30px;
+    stroke:#cd54d7;
+}
+.SELECCIONC3 circle:hover{
+    stroke-width:50px;
+    stroke:#cd54d7;
+    transition: 0.9s ease;
+}
+
+.SELECCIONC4 circle{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:30px;
+    stroke:#e33c24;
+}
+.SELECCIONC4 circle:hover{
+    stroke-width:50px;
+    stroke:#e33c24;
+    transition: 0.9s ease;
+}
+
+
+.selectable-elements { 
+    .box[data-active="true"]{   
+        transition: 0.9s ease;
+    }  
+    .SELECCIONC1[data-active="true"]{
+      stroke-width:35px;
+      stroke:#5ee948;
+      transition: 0.9s ease;
+      }
+      .SELECCIONC2[data-active="true"]{
+      stroke-width:40px;
+      stroke:#033895;
+      transition: 0.9s ease;
+      }
+      .SELECCIONC3[data-active="true"]{
+      stroke-width:35px;
+      stroke:#cd54d7;
+      transition: 0.9s ease;
+      }
+      .SELECCIONC4[data-active="true"]{
+      stroke-width:35px;
+      stroke:#e33c24;
+      transition: 0.9s ease;
+    }
+  
+    
+}
+
+
+
+.TRIPLEX5 rect{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:30px;
+    stroke:#033895;
+}
+.TRIPLEX5 rect:hover{
+    stroke-width:50px;
+    stroke:#033895;
+    transition: 0.9s ease;
+}
+.TABLITAS-TRASERAS g{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:20px;
+    stroke:#5ee948;
+}
+.TABLITAS-TRASERAS g:hover{
+    stroke-width:45px;
+    stroke:#5ee948;
+    transition: 0.9s ease;
+}
+.PUNTILLAS5 circle{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:15px;
+    stroke:#033895;
+}
+.PUNTILLAS5 circle:hover{
+    stroke-width:40px;
+    stroke:#033895;
+    transition: 0.9s ease;
+}
+.SOPORTE-MUEBLE rect{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:15px;
+    stroke:#cd54d7;
+}
+.SOPORTE-MUEBLE rect:hover{
+    stroke-width:40px;
+    stroke:#cd54d7;
+    transition: 0.9s ease;
+}
+.SOPORTE-MUEBLE circle{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:15px;
+    stroke:#cd54d7;
+}
+.SOPORTE-MUEBLE circle:hover{
+    stroke-width:40px;
+    stroke:#cd54d7;
+    transition: 0.9s ease;
+}
+.SOPORTE-PARED5 rect{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:15px;
+    stroke:#e33c24;
+}
+.SOPORTE-PARED5 rect:hover{
+    stroke-width:40px;
+    stroke:#e33c24;
+    transition: 0.9s ease;
+}
+.SOPORTE-PARED5 g{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:15px;
+    stroke:#e33c24;
+}
+.SOPORTE-PARED5 g:hover{
+    stroke-width:40px;
+    stroke:#e33c24;
+    transition: 0.9s ease;
+}
+.PROCESO-SOPORTE-MUEBLE{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:15px;
+    stroke:#cd54d7;
+}
+
+/* INFORMACION PUNTILLA ESPALDAR */
+.PROCESO-SOPORTE-MUEBLE circle{
+    stroke-width:10px;
+    stroke:#cd54d7;
+    transition: 0.9s ease;
+}
+.PROCESO-SOPORTE-MUEBLE circle:hover{
+    stroke-width:50px;
+    stroke:#cd54d7;
+    transition: 0.9s ease;
+}
+/* INFORMACION PUNTILLA ESPALDAR */
+/* SVG ESPALDAR */
+
+/* INFORMACION PUNTILLA ESPALDAR */
+
+.PROCESO-SOPORTE-MUEBLE a{
+    stroke:#cd54d7;
+    transition: 0.9s ease;
+    fill-opacity: 0.1;
+}
+/* INFORMACION PUNTILLA ESPALDAR */
+/* SVG ESPALDAR */
+
+/* INFORMACION PUNTILLA ESPALDAR */
+.PROCESO-PUNTILLAS circle{
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#033895;
+    transition: 0.9s ease;
+}
+.PROCESO-PUNTILLAS circle:hover{
+    stroke-width:50px;
+    stroke:#033895;
+    transition: 0.9s ease;
+}
+/* INFORMACION PUNTILLA ESPALDAR */
+/* SVG ESPALDAR */
+
+/* INFORMACION PUNTILLA ESPALDAR */
+
+.PROCESO-PUNTILLAS a{
+    stroke:#033895;
+    cursor: pointer;
+    transition: 0.9s ease;
+    fill-opacity: 0.1;
+}
+/* INFORMACION PUNTILLA ESPALDAR */
+/* SVG ESPALDAR */
+
+/* INFORMACION PUNTILLA ESPALDAR */
+.PROCESO-SOPORTE-PARED circle{
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#e33c24;
+    transition: 0.9s ease;
+}
+.PROCESO-SOPORTE-PARED circle:hover{
+    stroke-width:50px;
+    stroke:#e33c24;
+    transition: 0.9s ease;
+}
+/* INFORMACION PUNTILLA ESPALDAR */
+/* SVG ESPALDAR */
+
+/* INFORMACION PUNTILLA ESPALDAR */
+
+.PROCESO-SOPORTE-PARED a{
+    stroke:#e33c24;
+    cursor: pointer;
+    transition: 0.9s ease;
+    fill-opacity: 0.1;
+}
+/* INFORMACION PUNTILLA ESPALDAR */
+/* SVG ESPALDAR */

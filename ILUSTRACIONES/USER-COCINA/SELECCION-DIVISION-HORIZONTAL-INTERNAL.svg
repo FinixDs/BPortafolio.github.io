@@ -12,14 +12,11 @@
 	.st6{fill:#EAEAEA;stroke:#000000;stroke-width:14.0209;stroke-miterlimit:10;}
 	.st7{fill:#EAEAEA;stroke:#000000;stroke-width:14.7808;stroke-miterlimit:10;}
 	.st8{fill:#EAEAEA;stroke:#000000;stroke-width:14.0229;stroke-miterlimit:10;}
-	.st9{fill:#EAEAEA;stroke:#DAD528;stroke-width:19.8178;stroke-miterlimit:10;}
-	.st10{fill:#EAEAEA;stroke:#DAD528;stroke-width:19.6633;stroke-miterlimit:10;}
-	.st11{fill:#EAEAEA;stroke:#DAD528;stroke-width:19.8273;stroke-miterlimit:10;}
-	.st12{fill:#EAEAEA;stroke:#DAD528;stroke-width:19.5438;stroke-miterlimit:10;}
-	.st13{fill:#EAEAEA;stroke:#000000;stroke-width:14.098;stroke-miterlimit:10;}
-	.st14{fill:#EAEAEA;stroke:#000000;stroke-width:14.0889;stroke-miterlimit:10;}
-	.st15{fill:#DBDBDB;stroke:#000000;stroke-width:9.2534;stroke-miterlimit:10;}
-	.st16{fill:#E8E8E8;stroke:#000000;stroke-width:9.2534;stroke-miterlimit:10;}
+	.st9{fill:#EAEAEA;stroke:#B2C411;stroke-width:30;stroke-miterlimit:10;}
+	.st10{fill:#EAEAEA;stroke:#000000;stroke-width:14.098;stroke-miterlimit:10;}
+	.st11{fill:#EAEAEA;stroke:#000000;stroke-width:14.0889;stroke-miterlimit:10;}
+	.st12{fill:#DBDBDB;stroke:#000000;stroke-width:9.2534;stroke-miterlimit:10;}
+	.st13{fill:#E8E8E8;stroke:#000000;stroke-width:9.2534;stroke-miterlimit:10;}
 </style>
 <g id="LATERAL-DERECHA">
 	<polygon class="st0" points="5726.4,2012.2 5187.7,1895.9 5189.8,290.2 5726.4,291.4 	"/>
@@ -76,21 +73,21 @@
 		<rect x="675.7" y="1128.9" class="st9" width="1058" height="84.7"/>
 	</g>
 	<g id="DIVISION-HORIZONTAL-INTERNA-IZQUIERDA">
-		<polygon class="st10" points="1955.7,1136 3015.3,1136.5 2724.8,1045.7 1954.7,1045.5 		"/>
-		<rect x="1955.2" y="1133.2" class="st10" width="1060.5" height="84.7"/>
+		<polygon class="st9" points="1955.7,1136 3015.3,1136.5 2724.8,1045.7 1954.7,1045.5 		"/>
+		<rect x="1955.2" y="1133.2" class="st9" width="1060.5" height="84.7"/>
 	</g>
 	<g id="DIVISION-HORIZONTAL-INTERNA-DERECHA">
-		<polygon class="st11" points="3278.6,1140.7 4318.6,1141.2 3974.3,1050.7 3277.7,1050.2 		"/>
-		<rect x="3278.2" y="1137.9" class="st11" width="1040.9" height="84.7"/>
+		<polygon class="st9" points="3278.6,1140.7 4318.6,1141.2 3974.3,1050.7 3277.7,1050.2 		"/>
+		<rect x="3278.2" y="1137.9" class="st9" width="1040.9" height="84.7"/>
 	</g>
 	<g id="DIVISION-HORIZONTAL-EXTREMA-DERECHA">
-		<polygon class="st12" points="4564.7,1145.7 5708.2,1146.2 5342.3,1055.7 4563.7,1055.2 		"/>
-		<rect x="4564.2" y="1142.9" class="st12" width="1144.5" height="84.7"/>
+		<polygon class="st9" points="4564.7,1145.7 5708.2,1146.2 5342.3,1055.7 4563.7,1055.2 		"/>
+		<rect x="4564.2" y="1142.9" class="st9" width="1144.5" height="84.7"/>
 	</g>
 </g>
 <g id="LATERAL-IZQUIERDA">
-	<polygon class="st13" points="586.1,2012.2 120,1897.1 121.1,168.2 586.1,289.8 	"/>
-	<rect x="585" y="291.2" class="st14" width="90" height="1721"/>
+	<polygon class="st10" points="586.1,2012.2 120,1897.1 121.1,168.2 586.1,289.8 	"/>
+	<rect x="585" y="291.2" class="st11" width="90" height="1721"/>
 </g>
 <g id="TECHO">
 	<polygon class="st4" points="585,291.7 121.1,170.7 121.1,91.7 585,206.7 	"/>
@@ -122,29 +119,29 @@
 		l3.4-4.5c2.5-3.2,0.7-6.4,0.7-6.4l-4.8-5.8c0,0-0.5-0.6-0.3-1.3C3052.2,1910.7,3055.6,1906.1,3056.1,1905.4z"/>
 </g>
 <g id="SOPORTES-COOK">
-	<polygon class="st15" points="4210.2,1298.8 4210.2,1329.6 4269,1329.6 4269,1296.6 4269,1237.5 4187.3,1237.5 4187.3,1269.2 
+	<polygon class="st12" points="4210.2,1298.8 4210.2,1329.6 4269,1329.6 4269,1296.6 4269,1237.5 4187.3,1237.5 4187.3,1269.2 
 		4210.2,1269.4 	"/>
-	<polygon class="st15" points="5396.9,1280.7 5396.9,1307.4 5445.8,1307.4 5445.8,1278.8 5445.8,1227.8 5377.8,1227.8 
+	<polygon class="st12" points="5396.9,1280.7 5396.9,1307.4 5445.8,1307.4 5445.8,1278.8 5445.8,1227.8 5377.8,1227.8 
 		5377.8,1255.2 5396.9,1255.4 	"/>
-	<polygon class="st15" points="5585,1289.5 5585,1320.4 5643.8,1320.4 5643.8,1287.3 5643.8,1228.3 5562.1,1228.3 5562.1,1259.9 
+	<polygon class="st12" points="5585,1289.5 5585,1320.4 5643.8,1320.4 5643.8,1287.3 5643.8,1228.3 5562.1,1228.3 5562.1,1259.9 
 		5585,1260.2 	"/>
-	<polygon class="st16" points="1435.8,1281.5 1435.8,1308.2 1484.7,1308.2 1484.7,1279.6 1484.7,1228.6 1416.7,1228.6 1416.7,1256 
+	<polygon class="st13" points="1435.8,1281.5 1435.8,1308.2 1484.7,1308.2 1484.7,1279.6 1484.7,1228.6 1416.7,1228.6 1416.7,1256 
 		1435.8,1256.2 	"/>
-	<polygon class="st16" points="1624,1290.3 1624,1321.2 1682.7,1321.2 1682.7,1288.1 1682.7,1229 1601,1229 1601,1260.7 1624,1261 	
+	<polygon class="st13" points="1624,1290.3 1624,1321.2 1682.7,1321.2 1682.7,1288.1 1682.7,1229 1601,1229 1601,1260.7 1624,1261 	
 		"/>
-	<polygon class="st15" points="2741.3,1285.7 2741.3,1312.4 2790.2,1312.4 2790.2,1283.8 2790.2,1232.8 2722.2,1232.8 
+	<polygon class="st12" points="2741.3,1285.7 2741.3,1312.4 2790.2,1312.4 2790.2,1283.8 2790.2,1232.8 2722.2,1232.8 
 		2722.2,1260.2 2741.3,1260.4 	"/>
-	<polygon class="st15" points="2929.5,1294.5 2929.5,1325.4 2988.2,1325.4 2988.2,1292.3 2988.2,1233.3 2906.5,1233.3 
+	<polygon class="st12" points="2929.5,1294.5 2929.5,1325.4 2988.2,1325.4 2988.2,1292.3 2988.2,1233.3 2906.5,1233.3 
 		2906.5,1264.9 2929.5,1265.2 	"/>
-	<polygon class="st15" points="4022.1,1290 4022.1,1316.6 4071,1316.6 4071,1288.1 4071,1237.1 4003,1237.1 4003,1264.4 
+	<polygon class="st12" points="4022.1,1290 4022.1,1316.6 4071,1316.6 4071,1288.1 4071,1237.1 4003,1237.1 4003,1264.4 
 		4022.1,1264.6 	"/>
-	<polygon class="st16" points="755.2,1260.4 734.4,1260.7 734.4,1290 734.4,1320.9 681.2,1320.9 681.2,1287.8 681.2,1228.7 
+	<polygon class="st13" points="755.2,1260.4 734.4,1260.7 734.4,1290 734.4,1320.9 681.2,1320.9 681.2,1287.8 681.2,1228.7 
 		755.2,1228.7 	"/>
-	<polygon class="st16" points="2024.3,1261.4 2003.5,1261.7 2003.5,1291 2003.5,1321.9 1950.3,1321.9 1950.3,1288.8 1950.3,1229.8 
+	<polygon class="st13" points="2024.3,1261.4 2003.5,1261.7 2003.5,1291 2003.5,1321.9 1950.3,1321.9 1950.3,1288.8 1950.3,1229.8 
 		2024.3,1229.8 	"/>
-	<polygon class="st15" points="3336.7,1268.4 3315.9,1268.7 3315.9,1298 3315.9,1328.9 3262.7,1328.9 3262.7,1295.8 3262.7,1236.8 
+	<polygon class="st12" points="3336.7,1268.4 3315.9,1268.7 3315.9,1298 3315.9,1328.9 3262.7,1328.9 3262.7,1295.8 3262.7,1236.8 
 		3336.7,1236.8 	"/>
-	<polygon class="st15" points="4632.3,1272.9 4611.5,1273.2 4611.5,1302.5 4611.5,1333.4 4558.3,1333.4 4558.3,1300.3 
+	<polygon class="st12" points="4632.3,1272.9 4611.5,1273.2 4611.5,1302.5 4611.5,1333.4 4558.3,1333.4 4558.3,1300.3 
 		4558.3,1241.3 4632.3,1241.3 	"/>
 </g>
 </svg>

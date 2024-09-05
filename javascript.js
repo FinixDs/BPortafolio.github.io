@@ -951,7 +951,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $("#SOPORTE-MUEBL2").click(function(){
+    $("#SOPORTE-MUEBLE2").click(function(){
         $("#SOPORTE-MUEBLE2MODAL").modal();
     });
 });
@@ -959,6 +959,12 @@ $(document).ready(function(){
 $(document).ready(function(){
     $("#SOPORTE-PARED").click(function(){
         $("#SOPORTE-PAREDMODAL").modal();
+    });
+});
+
+$(document).ready(function(){
+    $("#SOPORTE-PARED1").click(function(){
+        $("#SOPORTE-PARED1MODAL").modal();
     });
 });
 

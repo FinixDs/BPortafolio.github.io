@@ -858,10 +858,24 @@ $(document).ready(function(){
 /*ESPECIFICACIONES-MUEBLE*/
 
 $(document).ready(function(){
-    $("#DIVISIONES-VERTICALES").click(function(){
-        $("#DIVISIONES-VERTICALESMODAL").modal();
+    $("#DIVISION-VERTICAL-IZQUIERDA").click(function(){
+        $("#DIVISIONES-VERTICAL-IZQUIERDAMODAL").modal();
     });
 });
+
+$(document).ready(function(){
+    $("#DIVISION-CENTRAL").click(function(){
+        $("#DIVISIONES-VERTICAL-CENTRALMODAL").modal();
+    });
+});
+
+$(document).ready(function(){
+    $("#DIVISION-VERTICAL-DERECHA").click(function(){
+        $("#DIVISIONES-VERTICAL-DERECHAMODAL").modal();
+    });
+});
+
+
 
 $(document).ready(function(){
     $("#TORNILLERIA-SOPORTES").click(function(){
@@ -921,8 +935,26 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $("#PUERTAS-PUERTAS").click(function(){
-        $("#PUERTAS-PUERTASMODAL").modal();
+    $("#PUERTA-IZQUIERDA-EXTREMA").click(function(){
+        $("#PUERTA-IZQUIERDA-EXTREMAMODAL").modal();
+    });
+});
+
+$(document).ready(function(){
+    $("#PUERTA-DERECHA-EXTREMA").click(function(){
+        $("#PUERTA-DERECHA-EXTREMAMODAL").modal();
+    });
+});
+
+$(document).ready(function(){
+    $("#PUERTA-DERECHA-INTERNA").click(function(){
+        $("#PUERTA-DERECHA-INTERNAMODAL").modal();
+    });
+});
+
+$(document).ready(function(){
+    $("#PUERTA-IZQUIERDA-INTERNA").click(function(){
+        $("#PUERTA-IZQUIERDA-INTERNAMODAL").modal();
     });
 });
 
@@ -957,6 +989,12 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
+    $("#SOPORTE-MUEBLE10").click(function(){
+        $("#SOPORTE-MUEBLE10MODAL").modal();
+    });
+});
+
+$(document).ready(function(){
     $("#SOPORTE-PARED").click(function(){
         $("#SOPORTE-PAREDMODAL").modal();
     });
@@ -965,6 +1003,12 @@ $(document).ready(function(){
 $(document).ready(function(){
     $("#SOPORTE-PARED1").click(function(){
         $("#SOPORTE-PARED1MODAL").modal();
+    });
+});
+
+$(document).ready(function(){
+    $("#SOPORTE-PARED10").click(function(){
+        $("#SOPORTE-PARED10MODAL").modal();
     });
 });
 

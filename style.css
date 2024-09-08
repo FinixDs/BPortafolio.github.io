@@ -673,15 +673,6 @@ i{
 
      }
 
-
-
-}
-
-
-
-
-
-
 -------------------------------------
 
 
@@ -1171,8 +1162,13 @@ svg {
 .modal {
   text-align: center;
 }
+.modal-dialog {
+    text-align: center;
+    width:60%;
+  }
 .modal-content {
   width: 100%;
+  max-width: 100%;
 }
 .hq {
   color: #CC0033;
@@ -1276,10 +1272,6 @@ svg {
           
 
      }
-
-
-
-}
 
 /*FIN ESTRUCTURA DE SELECTOR PIEZAS*/
 
@@ -1725,11 +1717,11 @@ svg {
     cursor: pointer;
     transition: 1.0s ease;
     stroke-width:10px;
-    stroke:#b6da13;
+    stroke:#437800;
 }
 .SELECCION3:hover{
     stroke-width:35px;
-    stroke:#b6da13;
+    stroke:#437800;
     transition: 0.9s ease;
 }
 .SELECCION4{
@@ -1782,7 +1774,7 @@ svg {
           }
           .SELECCION3[data-active="true"]{
           stroke-width:35px;
-          stroke:#b6da13;
+          stroke:#437800;
           transition: 0.9s ease;
           }
           .SELECCION4[data-active="true"]{

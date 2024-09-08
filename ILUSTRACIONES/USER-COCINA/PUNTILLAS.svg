@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.5.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 5922.9 2164.1" style="enable-background:new 0 0 5922.9 2164.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F7F7F7;stroke:#000000;stroke-width:13.6329;stroke-miterlimit:10;}
+	.st1{fill:#EAEAEA;stroke:#000000;stroke-width:13.9944;stroke-miterlimit:10;}
+	.st2{fill:#F7F7F7;stroke:#000000;stroke-width:14.2417;stroke-miterlimit:10;}
+	.st3{fill:#F7F7F7;stroke:#000000;stroke-width:13.0328;stroke-miterlimit:10;}
+	.st4{fill:#F7F7F7;stroke:#000000;stroke-width:13.0626;stroke-miterlimit:10;}
+	.st5{fill:#F7F7F7;stroke:#000000;stroke-width:13.016;stroke-miterlimit:10;}
+	.st6{fill:#F7F7F7;stroke:#000000;stroke-width:12.0337;stroke-miterlimit:10;}
+	.st7{fill:#F7F7F7;stroke:#000000;stroke-width:11.8639;stroke-miterlimit:10;}
+	.st8{fill:#F7F7F7;stroke:#000000;stroke-width:13.371;stroke-miterlimit:10;}
+	.st9{fill:#F7F7F7;stroke:#000000;stroke-width:13.1862;stroke-miterlimit:10;}
+	.st10{fill:#F7F7F7;stroke:#000000;stroke-width:12.0088;stroke-miterlimit:10;}
+	.st11{fill:#F7F7F7;stroke:#000000;stroke-width:11.8429;stroke-miterlimit:10;}
+	.st12{fill:#F7F7F7;stroke:#000000;stroke-width:13.5737;stroke-miterlimit:10;}
+	.st13{fill:#F7F7F7;stroke:#000000;stroke-width:13.3862;stroke-miterlimit:10;}
+	.st14{fill:#F7F7F7;stroke:#000000;stroke-width:12.7022;stroke-miterlimit:10;}
+	.st15{fill:#DDDBDB;stroke:#000000;stroke-width:8.2435;stroke-miterlimit:10;}
+	.st16{fill:#DDDBDB;stroke:#000000;stroke-width:8.9757;stroke-miterlimit:10;}
+	.st17{fill:#DDDBDB;stroke:#000000;stroke-width:10.5889;stroke-miterlimit:10;}
+	.st18{opacity:0.49;}
+	.st19{fill:#BCBCBC;stroke:#000000;stroke-width:16;stroke-miterlimit:10;}
+	.st20{fill:#BCBCBC;stroke:#000000;stroke-width:13.0626;stroke-miterlimit:10;}
+	.st21{fill:#BCBCBC;stroke:#000000;stroke-width:13.0792;stroke-miterlimit:10;}
+	.st22{opacity:0.49;fill:#C9C7C7;}
+	.st23{fill:#3B7C67;stroke:#3B7C67;stroke-width:18;stroke-miterlimit:10;}
+</style>
+<g id="CIRCULOS-SELECCION4">
+</g>
+<g id="CLOSET">
+	<g id="LATERAL-DERECHA">
+		<path class="st0" d="M5636.6,1994.6"/>
+		<polyline class="st0" points="5509.7,1964.2 5192.7,1894.9 5194.6,187.2 5725.4,290.4 5725.4,2011.2 		"/>
+		<rect x="5727" y="291.2" class="st1" width="103.6" height="1720"/>
+	</g>
+	<g id="BASE">
+		<polyline class="st2" points="5726.9,2011.7 590.8,2012 590.8,1902.9 672.4,1898.2 		"/>
+		<polyline class="st2" points="765,1897.1 5181.8,1891 5505.7,1963.2 		"/>
+		<line class="st2" x1="5182.4" y1="1891" x2="765" y2="1897.1"/>
+		<rect x="595.1" y="2012.2" class="st1" width="5234.8" height="86.5"/>
+		<polyline class="st3" points="584.4,2012 120.4,1897 120.4,1976 584.4,2097 585,2011.7 		"/>
+	</g>
+	<g id="DIVISIONES-VERTICALES">
+		<g id="DIVISION-VERTICAL-DERECHA">
+			<polygon class="st4" points="4457.1,2011.9 3991,1896.9 3992.1,169.4 4457.1,290.9 			"/>
+			<rect x="4456" y="205.9" class="st5" width="90" height="1805"/>
+		</g>
+		<g id="DIVISION-CENTRAL">
+			<polygon class="st4" points="3171.2,2011.9 2705.2,1896.9 2706.2,169.4 3171.2,290.9 			"/>
+			<rect x="3170.1" y="205.9" class="st5" width="90" height="1805"/>
+		</g>
+		<g id="DIVISION-VERTICAL-IZQUIERDA_00000085229740836627909760000005526871516412138418_">
+			<polygon class="st4" points="1849.1,2012.3 1383.1,1897.3 1384.1,169.8 1849.1,291.3 			"/>
+			<rect x="1848" y="206.3" class="st5" width="90" height="1805"/>
+		</g>
+	</g>
+	<g id="DIVISIONES-HORIZONTALES">
+		<g id="DIVISION-HORIZONTAL-EXTREMA-IZQUIERDA">
+			<polyline class="st6" points="765.6,1131.7 1733.3,1132.2 1412.9,1041.7 764.7,1041.2 			"/>
+			<polyline class="st7" points="765.7,1128.9 1733.7,1128.9 1733.7,1213.6 765.7,1213.6 			"/>
+		</g>
+		<g id="DIVISION-HORIZONTAL-INTERNA-DERECHA">
+			<polygon class="st8" points="3260.8,1147.7 4455.5,1148.2 4059.9,1057.7 3259.7,1057.2 			"/>
+			<rect x="3260.3" y="1144.9" class="st9" width="1195.8" height="84.7"/>
+		</g>
+		<g id="DIVISION-HORIZONTAL-EXTREMA-DERECHA">
+			<polygon class="st10" points="4546.6,1145.7 5510.3,1146.2 5201.9,1055.7 4545.7,1055.2 			"/>
+			<rect x="4546.2" y="1142.9" class="st11" width="964.6" height="84.7"/>
+		</g>
+		<g id="DIVISION-HORIZONTAL-INTERNA-IZQUIERDA_00000054254641889117512190000003647137643466809518_">
+			<polygon class="st12" points="1938.8,1160.4 3170.1,1160.9 2832.6,1070.1 1937.7,1069.9 			"/>
+			<rect x="1938.3" y="1157.6" class="st13" width="1232.4" height="84.7"/>
+		</g>
+	</g>
+	<g id="LATERAL-IZQUIERDA">
+		<polygon class="st4" points="586.1,2012.7 120,1897.7 121.1,170.2 586.1,291.7 		"/>
+		<rect x="585" y="292.7" class="st14" width="90" height="1719"/>
+	</g>
+	<g id="TECHO">
+		<polygon class="st1" points="585,291.7 121.1,170.7 121.1,91.7 585,206.7 		"/>
+		<rect x="591.9" y="206.7" class="st1" width="5239.2" height="85"/>
+		<polyline class="st1" points="114.7,89.7 585.6,207.2 5831.7,206.4 5282.5,85.7 114.7,89.7 5283.1,85.7 		"/>
+	</g>
+	<g id="SOPORTES-COOK">
+		<g>
+			<polygon class="st15" points="4328.3,1257.2 4351.3,1257.4 4351.3,1286.8 4351.3,1317.6 4410,1317.6 4410,1284.6 4410,1225.5 
+				4328.3,1225.5 			"/>
+			<polygon class="st15" points="5225.8,1255.2 5244.9,1255.4 5244.9,1280.7 5244.9,1307.4 5293.8,1307.4 5293.8,1278.8 
+				5293.8,1227.8 5225.8,1227.8 			"/>
+			<polygon class="st15" points="5390.1,1228.3 5390.1,1259.9 5413,1260.2 5413,1289.5 5413,1320.4 5471.8,1320.4 5471.8,1287.3 
+				5471.8,1228.3 			"/>
+			<polygon class="st15" points="1410.7,1241 1429.8,1241.2 1429.8,1266.5 1429.8,1293.2 1478.7,1293.2 1478.7,1264.6 
+				1478.7,1213.6 1410.7,1213.6 			"/>
+			<polygon class="st15" points="1595,1245.7 1618,1246 1618,1275.3 1618,1306.2 1676.7,1306.2 1676.7,1273.1 1676.7,1214 
+				1595,1214 			"/>
+			<polygon class="st15" points="4144.1,1252.4 4163.1,1252.6 4163.1,1278 4163.1,1304.6 4212,1304.6 4212,1276.1 4212,1225.1 
+				4144.1,1225.1 			"/>
+			<polygon class="st16" points="2899.4,1293.2 2899.4,1319.8 2957.4,1319.8 2957.4,1291.3 2957.4,1240.3 2876.8,1240.3 
+				2876.8,1267.6 2899.4,1267.8 			"/>
+			<polygon class="st17" points="3063.2,1304 3063.2,1334.8 3132.8,1334.8 3132.8,1301.7 3132.8,1242.7 3036,1242.7 3036,1274.3 
+				3063.2,1274.6 			"/>
+		</g>
+	</g>
+</g>
+<g id="TABLITAS-TRASERAS">
+	<g id="TABLITA-TRASERA-IZQUIERDA" class="st18">
+		<rect x="675.1" y="293" class="st19" width="82.4" height="1719.3"/>
+	</g>
+	<g id="TABLITA-TRASERA-DERECHA" class="st18">
+		<path class="st20" d="M5644.3,294.2v1l0.7,0l-0.8,1702.4v2v-3c0,1.5,6.5,1,8,1h75c1.5,0-1-8.5-1-10l0.5-1690.7
+			c0-1.5-1.2-2.7-2.7-2.7H5644.3z"/>
+		<path class="st21" d="M5510.7,297.4l0.5,1656.9c0,1.2-0.2,10,1,10.3l130,28.4c1.7,0.5,1.5,0.8,2-2.4l1.5-1692.8
+			c0-1.5-1.2-2.7-2.7-2.7l-129.6-0.5C5511.9,294.7,5510.7,295.9,5510.7,297.4z"/>
+	</g>
+</g>
+<g id="TRIPLEX_00000062169277959621118470000012963048032068378272_">
+	<rect id="TRIPLEX" x="675.2" y="292.7" class="st22" width="5052" height="1718"/>
+</g>
+<g id="PUNTILLAS">
+	<circle class="st23" cx="1893.2" cy="331.7" r="19.5"/>
+	<circle class="st23" cx="1893.2" cy="825.7" r="19.5"/>
+	<circle class="st23" cx="1893.2" cy="1444.7" r="19.5"/>
+	<circle class="st23" cx="1893.2" cy="1960.7" r="19.5"/>
+	<circle class="st23" cx="3212.2" cy="329.7" r="19.5"/>
+	<circle class="st23" cx="3212.2" cy="823.7" r="19.5"/>
+	<circle class="st23" cx="3212.2" cy="1442.7" r="19.5"/>
+	<circle class="st23" cx="3212.2" cy="1958.7" r="19.5"/>
+	<circle class="st23" cx="4501.2" cy="337.7" r="19.5"/>
+	<circle class="st23" cx="4501.2" cy="831.7" r="19.5"/>
+	<circle class="st23" cx="4501.2" cy="1450.7" r="19.5"/>
+	<circle class="st23" cx="4501.2" cy="1966.7" r="19.5"/>
+	<circle class="st23" cx="5686.2" cy="333.7" r="19.5"/>
+	<circle class="st23" cx="5686.2" cy="827.7" r="19.5"/>
+	<circle class="st23" cx="5686.2" cy="1446.7" r="19.5"/>
+	<circle class="st23" cx="5686.2" cy="1962.7" r="19.5"/>
+	<circle class="st23" cx="716.7" cy="1445.2" r="19.5"/>
+	<circle class="st23" cx="716.7" cy="1961.2" r="19.5"/>
+	<circle class="st23" cx="716.7" cy="332.2" r="19.5"/>
+	<circle class="st23" cx="716.7" cy="826.2" r="19.5"/>
+</g>
+<g id="SOPORTE-MUEBLE">
+</g>
+<g id="SOPORTE-PARED">
+</g>
+<g id="MEDIDAS">
+</g>
+<g id="PROCESOS">
+</g>
+</svg>

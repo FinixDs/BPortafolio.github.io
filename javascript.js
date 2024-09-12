@@ -878,10 +878,29 @@ $(document).ready(function(){
 
 
 $(document).ready(function(){
-    $("#TORNILLERIA-SOPORTES").click(function(){
-        $("#TORNILLERIA-SOPORTESMODAL").modal();
+    $("#TORNILLERIA-SOPORTE-1").click(function(){
+        $("#TORNILLERIA-SOPORTE1MODAL").modal();
     });
 });
+
+$(document).ready(function(){
+    $("#TORNILLERIA-SOPORTE-2").click(function(){
+        $("#TORNILLERIA-SOPORTE2MODAL").modal();
+    });
+});
+
+$(document).ready(function(){
+    $("#TORNILLERIA-SOPORTE-3").click(function(){
+        $("#TORNILLERIA-SOPORTE3MODAL").modal();
+    });
+});
+
+$(document).ready(function(){
+    $("#TORNILLERIA-SOPORTE-45").click(function(){
+        $("#TORNILLERIA-SOPORTE4MODAL").modal();
+    });
+});
+
 
 $(document).ready(function(){
     $("#SOPORTES3").click(function(){
@@ -909,16 +928,79 @@ $(document).ready(function(){
 
 
 $(document).ready(function(){
-    $("#TORNILLERIA-EXTERIOR").click(function(){
+    $("#TORNILLERIA-EXTERNA-10").click(function(){
         $("#TORNILLERIA-EXTERIORMODAL").modal();
     });
 });
 
 $(document).ready(function(){
-    $("#TORNILLERIA-TABLITAS-TRASERAS").click(function(){
-        $("#TORNILLERIA-TABLITAS-TRASERASMODAL").modal();
+    $("#TORNILLERIA-EXTERNA-6").click(function(){
+        $("#TORNILLERIA-EXTERIORMODAL").modal();
     });
 });
+
+$(document).ready(function(){
+    $("#TORNILLERIA-EXTERNA-5").click(function(){
+        $("#TORNILLERIA-EXTERIORMODAL").modal();
+    });
+});
+
+$(document).ready(function(){
+    $("#TORNILLERIA-EXTERNA-1").click(function(){
+        $("#TORNILLERIA-EXTERIORMODAL").modal();
+    });
+});
+
+$(document).ready(function(){
+    $("#TORNILLERIA-EXTERNA-2").click(function(){
+        $("#TORNILLERIA-EXTERIOR-INTERNAMODAL").modal();
+    });
+});
+$(document).ready(function(){
+    $("#TORNILLERIA-EXTERNA-3").click(function(){
+        $("#TORNILLERIA-EXTERIOR-INTERNAMODAL").modal();
+    });
+});
+$(document).ready(function(){
+    $("#TORNILLERIA-EXTERNA-4").click(function(){
+        $("#TORNILLERIA-EXTERIOR-INTERNAMODAL").modal();
+    });
+});
+$(document).ready(function(){
+    $("#TORNILLERIA-EXTERNA-7").click(function(){
+        $("#TORNILLERIA-EXTERIOR-INTERNAMODAL").modal();
+    });
+});
+$(document).ready(function(){
+    $("#TORNILLERIA-EXTERNA-8").click(function(){
+        $("#TORNILLERIA-EXTERIOR-INTERNAMODAL").modal();
+    });
+});
+$(document).ready(function(){
+    $("#TORNILLERIA-EXTERNA-9").click(function(){
+        $("#TORNILLERIA-EXTERIOR-INTERNAMODAL").modal();
+    });
+});
+
+$(document).ready(function(){
+    $("#TORNILLERIA-TABLITA-BACK-LEFT").click(function(){
+        $("#TORNILLERIA-TABLITAS-TRASERA-LEFTMODAL").modal();
+    });
+});
+
+$(document).ready(function(){
+    $("#TORNILLOS-COLGADOR20").click(function(){
+        $("#TORNILLOS-COLGADOR20MODAL").modal();
+    });
+});
+
+
+$(document).ready(function(){
+    $("#TORNILLERIA-TABLITA-BACK-RIGHT").click(function(){
+        $("#TORNILLERIA-TABLITAS-TRASERA-RIGHTMODAL").modal();
+    });
+});
+
 
 $(document).ready(function(){
     $("#TORNILLERIA-TABLITA-DELANTERA").click(function(){
@@ -1038,4 +1120,6 @@ $(document).ready(function(){
 /*FIN ESPECIFICACIONES-PUERTAS*/
 
 /*FIN-PIEZAS*/
+
+
 

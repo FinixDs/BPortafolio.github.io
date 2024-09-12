@@ -363,6 +363,7 @@ i{
 }
 .imagen img{
     width:100%;
+
     height: 100%;
 }
 
@@ -1149,7 +1150,7 @@ footer{
     font-size: 50px;
 }
 svg {
-  max-width: 70%;
+  max-width: 100%;
   display: block;
   margin: 0 auto;
 }
@@ -1161,10 +1162,12 @@ svg {
 }
 .modal {
   text-align: center;
+  
+
 }
 .modal-dialog {
-    text-align: center;
-    width:60%;
+    margin: 0 auto;
+    width: 70%;
   }
 .modal-content {
   width: 100%;
@@ -2324,3 +2327,4 @@ svg {
 /*FIN  COLOR Y HOVER CONTORNO OBJETO PROCESO SOPORTE PARED*/
 
 /*FIN CUARTO MODULO INSTRUCTION RESPALDO*/
+

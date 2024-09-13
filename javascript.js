@@ -428,6 +428,42 @@ btnCerrarMenu.addEventListener('click', (e)=> {
     document.querySelector('body').style.overflow = 'visible';
 });
 
+/* INCLUSION DE SONIDO*/
+
+
+/* -------------------------------------------------*/
+
+const sonidos = ['p1','p2','p3','p4','p5']
+
+sonidos.forEach(sound =>{
+
+    const vector = document.createElement('botones')
+    vector.classList.add('vector')
+
+    vector.innerText = sound
+    btnCerrarMenu.addEventListener('click', () => {
+        pararsong()
+
+        document.getElementById(sound).play()
+
+    })
+    document.getElementById('botones').
+    appendChild(vector)
+    
+})
+function pararsong() {
+    sounds.forEach(sound=> {
+        const song = document.getElementById
+        (sound)
+
+        song.pause()
+        song.currentTime = 0;
+
+    })
+
+}
+/* -------------------------------------------------*/
+
 
 
 /* INCLUSION DE SONIDO*/

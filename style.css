@@ -1150,7 +1150,7 @@ footer{
     font-size: 50px;
 }
 svg {
-  max-width: 100%;
+  max-width: 80%;
   display: block;
   margin: 0 auto;
 }
@@ -1162,16 +1162,31 @@ svg {
 }
 .modal {
   text-align: center;
-  
 
 }
 .modal-dialog {
     margin: 0 auto;
-    width: 70%;
+
+    
   }
+.modal-dialog2 {
+    margin: 0 auto;
+    width: 75%;;
+    
+  }
+  .modal-dialog3 {
+    margin: 0 auto;
+    width: 80%;;
+    
+  }
+  .modal-dialog4 {
+    margin: 0 auto;
+    width: 90%;;
+    
+  }
+
 .modal-content {
-  width: 100%;
-  max-width: 100%;
+
 }
 .hq {
   color: #CC0033;

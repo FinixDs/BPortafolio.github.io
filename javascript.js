@@ -431,13 +431,13 @@ btnCerrarMenu.addEventListener('click', (e)=> {
 /* INCLUSION DE SONIDO*/
 
 
-/* -------------------------------------------------*/
+/* -------------------------------------------------
 
 const sonidos = ['p1','p2','p3','p4','p5']
 
 sonidos.forEach(sound =>{
 
-    const vector = document.createElement('botones')
+    const vector = document.createElement('')
     vector.classList.add('vector')
 
     vector.innerText = sound
@@ -447,7 +447,7 @@ sonidos.forEach(sound =>{
         document.getElementById(sound).play()
 
     })
-    document.getElementById('botones').
+    document.getElementById('').
     appendChild(vector)
     
 })
@@ -462,7 +462,7 @@ function pararsong() {
     })
 
 }
-/* -------------------------------------------------*/
+-------------------------------------------------*/
 
 
 

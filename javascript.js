@@ -428,147 +428,7 @@ btnCerrarMenu.addEventListener('click', (e)=> {
     document.querySelector('body').style.overflow = 'visible';
 });
 
-/* INCLUSION DE SONIDO*/
 
-
-/* -------------------------------------------------
-
-const sonidos = ['p1','p2','p3','p4','p5']
-
-sonidos.forEach(sound =>{
-
-    const vector = document.createElement('')
-    vector.classList.add('vector')
-
-    vector.innerText = sound
-    btnCerrarMenu.addEventListener('click', () => {
-        pararsong()
-
-        document.getElementById(sound).play()
-
-    })
-    document.getElementById('').
-    appendChild(vector)
-    
-})
-function pararsong() {
-    sounds.forEach(sound=> {
-        const song = document.getElementById
-        (sound)
-
-        song.pause()
-        song.currentTime = 0;
-
-    })
-
-}
--------------------------------------------------*/
-
-
-
-/* INCLUSION DE SONIDO*/
-
-/* SELECTOR1*/
-
-var p1 = new Audio();
-p1.src = "SOUND/SELECTOR/1.mp3";
-
-var p2 = new Audio();
-p2.src = "SOUND/SELECTOR/2.mp3";
-
-var p3 = new Audio();
-p3.src = "SOUND/SELECTOR/3.mp3";
-
-var p4 = new Audio();
-p4.src = "SOUND/SELECTOR/4.mp3";
-
-var p5 = new Audio();
-p5.src = "SOUND/SELECTOR/5.mp3";
-
-var p6 = new Audio();
-p6.src = "SOUND/SELECTOR/6.mp3";
-
-/* SELECTOR1*/
-
-/* PIEZAS*/
-
-var m1 = new Audio();
-m1.src = "SOUND/PIEZAS/left.mp3";
-
-var m2 = new Audio();
-m2.src = "SOUND/PIEZAS/right.mp3";
-
-var m3 = new Audio();
-m3.src = "SOUND/PIEZAS/top.mp3";
-
-var m4 = new Audio();
-m4.src = "SOUND/PIEZAS/low.mp3";
-
-/* INTERNAL*/
-
-var m5 = new Audio();
-m5.src = "SOUND/PIEZAS/internal-left.mp3";
-
-var m6 = new Audio();
-m6.src = "SOUND/PIEZAS/internal-right.mp3";
-
-/* INTERNAL*/
-
-/* INTERNAL*/
-
-var m7 = new Audio();
-m7.src = "SOUND/PIEZAS/support.mp3";
-
-var m8 = new Audio();
-m8.src = "SOUND/PIEZAS/hanger.mp3";
-
-var m9 = new Audio();
-m9.src = "SOUND/PIEZAS/division1.mp3";
-
-var m10 = new Audio();
-m10.src = "SOUND/PIEZAS/division2.mp3";
-
-var m11 = new Audio();
-m11.src = "SOUND/PIEZAS/tornillos.mp3";
-
-
-/* INTERNAL*/
-
-/* PIEZAS*/
-
-/* SELECTOR2*/
-
-var p7 = new Audio();
-p7.src = "SOUND/SELECTOR/S1.mp3";
-
-var p8 = new Audio();
-p8.src = "SOUND/SELECTOR/S2.mp3";
-
-var p9 = new Audio();
-p9.src = "SOUND/SELECTOR/S3.mp3";
-
-var p10= new Audio();
-p10.src = "SOUND/SELECTOR/S4.mp3";
-
-var p11 = new Audio();
-p11.src = "SOUND/SELECTOR/S5.mp3";
-
-var p12 = new Audio();
-p12.src = "SOUND/SELECTOR/S6.mp3";
-
-/* SELECTOR2*/
-
-/* PIEZAS*/
-
-var m12 = new Audio();
-m12.src = "SOUND/PIEZAS/extreme-door.mp3";
-
-var m13 = new Audio();
-m13.src = "SOUND/PIEZAS/center-door.mp3";
-
-/* PIEZAS*/
-
-/* INCLUSION DE SONIDO*/
 
 /*-----------------------------------------------------------------------------*/
 /*-----------------------------------------------------------------------------*/
@@ -1159,3 +1019,133 @@ $(document).ready(function(){
 
 
 
+
+
+
+
+
+
+
+
+
+
+/* INCLUSION DE SONIDO PRIMER MANUAL INSTRUCTIVO*/
+
+/* -------------------------------------------------*/
+
+/*LOW SIDE SOUND*/
+let sound = new Audio("./SOUND/PIEZAS/low.mp3");
+
+playBtn.addEventListener('click', ()=>{
+    sound.play()
+    });
+
+pauseBtn.addEventListener('click', ()=>{
+    sound.pause()
+});
+pauseBtnClose.addEventListener('click', ()=>{
+    sound.pause()
+});
+/*LOW SIDE SOUND*/
+
+let sound1 = new Audio("./SOUND/PIEZAS/top.mp3");
+
+playBtn1.addEventListener('click', ()=>{
+    sound1.play()
+    });
+
+pauseBtn1.addEventListener('click', ()=>{
+    sound1.pause()
+});
+pauseBtnClose1.addEventListener('click', ()=>{
+    sound1.pause()
+});
+
+let sound2 = new Audio("./SOUND/PIEZAS/right.mp3");
+
+playBtn2.addEventListener('click', ()=>{
+    sound2.play()
+    });
+
+pauseBtn2.addEventListener('click', ()=>{
+    sound2.pause()
+});
+pauseBtnClose2.addEventListener('click', ()=>{
+    sound2.pause()
+});
+
+let sound3 = new Audio("./SOUND/PIEZAS/left.mp3");
+
+playBtn3.addEventListener('click', ()=>{
+    sound3.play()
+    });
+
+pauseBtn3.addEventListener('click', ()=>{
+    sound3.pause()
+});
+pauseBtnClose3.addEventListener('click', ()=>{
+    sound3.pause()
+});
+
+
+let sound4 = new Audio("./SOUND/PIEZAS/internal-left.mp3");
+
+playBtn4.addEventListener('click', ()=>{
+    sound4.play()
+    });
+
+pauseBtn4.addEventListener('click', ()=>{
+    sound4.pause()
+});
+
+pauseBtnClose4.addEventListener('click', ()=>{
+    sound4.pause()
+});
+
+
+let sound5 = new Audio("./SOUND/PIEZAS/internal-right.mp3");
+
+playBtn5.addEventListener('click', ()=>{
+    sound5.play()
+    });
+
+pauseBtn5.addEventListener('click', ()=>{
+    sound5.pause()
+});
+pauseBtnClose5.addEventListener('click', ()=>{
+    sound5.pause()
+});
+
+
+let sound6 = new Audio("./SOUND/PIEZAS/hanger");
+
+playBtn6.addEventListener('click', ()=>{
+    sound6.play()
+    });
+
+pauseBtn6.addEventListener('click', ()=>{
+    sound6.pause()
+});
+pauseBtnClose6.addEventListener('click', ()=>{
+    sound6.pause()
+});
+
+
+
+let sound7 = new Audio("./SOUND/SELECTOR/2.mp3");
+
+playBtn7.addEventListener('click', ()=>{
+    sound1.play()
+    });
+
+pauseBtn7.addEventListener('click', ()=>{
+    sound7.pause()
+});
+
+pauseBtnClose7.addEventListener('click', ()=>{
+    sound7.pause()
+});
+
+
+/*-------------------------------------------------*/
+/* INCLUSION DE SONIDO PRIMER MANUAL INSTRUCTIVO*/

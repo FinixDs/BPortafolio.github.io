@@ -1117,7 +1117,7 @@ pauseBtnClose5.addEventListener('click', ()=>{
 });
 
 
-let sound6 = new Audio("./SOUND/PIEZAS/hanger");
+let sound6 = new Audio("./SOUND/PIEZAS/hanger.mp3");
 
 playBtn6.addEventListener('click', ()=>{
     sound6.play()
@@ -1130,21 +1130,215 @@ pauseBtnClose6.addEventListener('click', ()=>{
     sound6.pause()
 });
 
-
-
-let sound7 = new Audio("./SOUND/SELECTOR/2.mp3");
+let sound7 = new Audio("./SOUND/PIEZAS/support.mp3");
 
 playBtn7.addEventListener('click', ()=>{
-    sound1.play()
+    sound7.play()
     });
 
 pauseBtn7.addEventListener('click', ()=>{
     sound7.pause()
 });
-
 pauseBtnClose7.addEventListener('click', ()=>{
     sound7.pause()
 });
+
+let sound8 = new Audio("./SOUND/PIEZAS/support.mp3");
+
+playBtn8.addEventListener('click', ()=>{
+    sound8.play()
+    });
+
+pauseBtn8.addEventListener('click', ()=>{
+    sound8.pause()
+});
+pauseBtnClose8.addEventListener('click', ()=>{
+    sound8.pause()
+});
+
+
+let sound9 = new Audio("./SOUND/PIEZAS/tornillos.mp3");
+
+playBtn9.addEventListener('click', ()=>{
+    sound9.play()
+    });
+
+pauseBtn9.addEventListener('click', ()=>{
+    sound9.pause()
+});
+pauseBtnClose9.addEventListener('click', ()=>{
+    sound9.pause()
+});
+
+let sound10 = new Audio("./SOUND/PIEZAS/tornillos.mp3");
+
+playBtn10.addEventListener('click', ()=>{
+    sound10.play()
+    });
+
+pauseBtn10.addEventListener('click', ()=>{
+    sound10.pause()
+});
+pauseBtnClose10.addEventListener('click', ()=>{
+    sound10.pause()
+});
+
+let sound11 = new Audio("./SOUND/PIEZAS/division1.mp3");
+
+playBtn11.addEventListener('click', ()=>{
+    sound11.play()
+    });
+
+pauseBtn11.addEventListener('click', ()=>{
+    sound11.pause()
+});
+pauseBtnClose11.addEventListener('click', ()=>{
+    sound11.pause()
+});
+
+let sound12 = new Audio("./SOUND/PIEZAS/division1.mp3");
+
+playBtn12.addEventListener('click', ()=>{
+    sound12.play()
+    });
+
+pauseBtn12.addEventListener('click', ()=>{
+    sound12.pause()
+});
+pauseBtnClose12.addEventListener('click', ()=>{
+    sound12.pause()
+});
+
+let sound13 = new Audio("./SOUND/PIEZAS/division2.mp3");
+
+playBtn13.addEventListener('click', ()=>{
+    sound13.play()
+    });
+
+pauseBtn13.addEventListener('click', ()=>{
+    sound13.pause()
+});
+pauseBtnClose13.addEventListener('click', ()=>{
+    sound13.pause()
+});
+
+let sound14 = new Audio("./SOUND/PIEZAS/hanger.mp3");
+
+playBtn14.addEventListener('click', ()=>{
+    sound14.play()
+    });
+
+pauseBtn14.addEventListener('click', ()=>{
+    sound14.pause()
+});
+pauseBtnClose14.addEventListener('click', ()=>{
+    sound14.pause()
+});
+
+let sound15 = new Audio("./SOUND/PIEZAS/extreme-door.mp3");
+
+playBtn15.addEventListener('click', ()=>{
+    sound15.play()
+    });
+
+pauseBtn15.addEventListener('click', ()=>{
+    sound15.pause()
+});
+pauseBtnClose15.addEventListener('click', ()=>{
+    sound15.pause()
+});
+
+let sound16 = new Audio("./SOUND/PIEZAS/center-door.mp3");
+
+playBtn16.addEventListener('click', ()=>{
+    sound16.play()
+    });
+
+pauseBtn16.addEventListener('click', ()=>{
+    sound16.pause()
+});
+pauseBtnClose16.addEventListener('click', ()=>{
+    sound16.pause()
+});
+
+let sound17 = new Audio("./SOUND/PIEZAS/the-lock.mp3");
+
+playBtn17.addEventListener('click', ()=>{
+    sound17.play()
+    });
+
+pauseBtn17.addEventListener('click', ()=>{
+    sound17.pause()
+});
+pauseBtnClose17.addEventListener('click', ()=>{
+    sound17.pause()
+});
+
+let sound18 = new Audio("./SOUND/PIEZAS/forniture-legs.mp3");
+
+playBtn18.addEventListener('click', ()=>{
+    sound18.play()
+    });
+
+pauseBtn18.addEventListener('click', ()=>{
+    sound18.pause()
+});
+pauseBtnClose18.addEventListener('click', ()=>{
+    sound18.pause()
+});
+
+let sound19 = new Audio("./SOUND/PIEZAS/knobs.mp3");
+
+playBtn19.addEventListener('click', ()=>{
+    sound19.play()
+    });
+
+pauseBtn19.addEventListener('click', ()=>{
+    sound19.pause()
+});
+pauseBtnClose19.addEventListener('click', ()=>{
+    sound19.pause()
+});
+
+let sound20 = new Audio("./SOUND/PIEZAS/knobs.mp3");
+
+playBtn20.addEventListener('click', ()=>{
+    sound20.play()
+    });
+
+pauseBtn20.addEventListener('click', ()=>{
+    sound20.pause()
+});
+pauseBtnClose20.addEventListener('click', ()=>{
+    sound20.pause()
+});
+
+let sound21 = new Audio("./SOUND/PIEZAS/triplex-extreme.mp3");
+
+playBtn21.addEventListener('click', ()=>{
+    sound21.play()
+    });
+
+pauseBtn21.addEventListener('click', ()=>{
+    sound21.pause()
+});
+pauseBtnClose21.addEventListener('click', ()=>{
+    sound21.pause()
+});
+
+let sound23 = new Audio("./SOUND/PIEZAS/nails.mp3");
+
+playBtn23.addEventListener('click', ()=>{
+    sound23.play()
+    });
+
+pauseBtn23.addEventListener('click', ()=>{
+    sound23.pause()
+});
+pauseBtnClose23.addEventListener('click', ()=>{
+    sound23.pause()
+});
+
 
 
 /*-------------------------------------------------*/

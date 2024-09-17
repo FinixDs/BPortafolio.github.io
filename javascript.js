@@ -937,6 +937,12 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
+    $("#BISAGRAS2").click(function(){
+        $("#BISAGRAS2MODAL").modal();
+    });
+});
+
+$(document).ready(function(){
     $("#MANIJAS-PUERTAS").click(function(){
         $("#MANIJAS-PUERTASMODAL").modal();
     });

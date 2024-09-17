@@ -1057,7 +1057,22 @@ i{
 }
 /* SEXTO SELECTOR */
 
+/* SEXTO SELECTOR */
+.BISAGRAS2{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#18FFDF;
+}
+.BISAGRAS2:hover{
+    stroke-width:35px;
+    stroke:#18FFDF;
+    transition: 0.9s ease;
+}
+/* SEXTO SELECTOR */
+
 /* PROGRAMACION PARA SELECTOR TERCERO */
+
 
 
 
@@ -2339,3 +2354,7 @@ svg {
 
 /*FIN CUARTO MODULO INSTRUCTION RESPALDO*/
 
+.informacion{
+    text-align: left;
+    font-family: Neuton;
+}

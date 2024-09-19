@@ -1019,6 +1019,30 @@ $(document).ready(function(){
         $("#TRIPLEX5MODAL").modal();
     });
 });
+
+$(document).ready(function(){
+    $("#TORNILLO9").click(function(){
+        $("#TORNILLO9MODAL").modal();
+    });
+});
+
+$(document).ready(function(){
+    $("#TORNILLO3").click(function(){
+        $("#TORNILLO3MODAL").modal();
+    });
+});
+
+$(document).ready(function(){
+    $("#TORNILLO9-1").click(function(){
+        $("#TORNILLO9MODAL").modal();
+    });
+});
+
+$(document).ready(function(){
+    $("#TORNILLO3-1").click(function(){
+        $("#TORNILLO3MODAL").modal();
+    });
+});
 /*FIN ESPECIFICACIONES-PUERTAS*/
 
 /*FIN-PIEZAS*/

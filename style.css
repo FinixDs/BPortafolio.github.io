@@ -1635,6 +1635,36 @@ svg {
 /*FIN COLOR Y HOVER CONTORNO OBJETO BISAGRAS*/
 
 /*COLOR Y HOVER CONTORNO OBJETO SOPORTES*/
+.TORNILLO9 ellipse{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#1CA5A1;
+
+}
+.TORNILLO9 ellipse:hover {
+    transition: 1.0s ease;
+    stroke-width:30px;
+    stroke:#1CA5A1;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO BISAGRAS*/
+
+/*COLOR Y HOVER CONTORNO OBJETO SOPORTES*/
+.TORNILLO3 circle{
+    transition: 1.0s ease;
+    stroke-width:10px;
+    cursor: pointer;
+    stroke:#1CA5A1;
+
+}
+.TORNILLO3 circle:hover {
+    transition: 1.0s ease;
+    stroke-width:30px;
+    stroke:#1CA5A1;
+}
+/*FIN COLOR Y HOVER CONTORNO OBJETO BISAGRAS*/
+
+/*COLOR Y HOVER CONTORNO OBJETO SOPORTES*/
 
 .SOPORTES-2 path{
     transition: 1.0s ease;

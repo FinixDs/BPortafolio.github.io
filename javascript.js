@@ -1,4 +1,6 @@
-        //Oculto todos los textos excepto el texto inicial
+
+       
+       //Oculto todos los textos excepto el texto inicial
         document.getElementById("texto1").style.display = "none";
         document.getElementById("texto2").style.display = "none";
         document.getElementById("texto3").style.display = "none";
@@ -374,59 +376,6 @@ function listenToClicks(){
 
 
 
-const btnDepartamentos = document.getElementById('btn-departamentos'),
-      btnCerrarMenu = document.getElementById('btn-menu-cerrar'),
-      grid = document.getElementById('grid'),
-      contenedorEnlacesNav = document.querySelector('#menu .contenedor-enlaces-nav'),
-      contenedorSubCategorias = document.querySelector('#grid .contenedor-subcategorias'),
-      esDispositivoMovil = () => window.innerWidth <= 800;
-
-btnDepartamentos.addEventListener('mouseover', () => {
-    if(!esDispositivoMovil()){
-        grid.classList.add('activo');
-    }
-});
-
-grid.addEventListener('mouseleave', () => {
-    if(!esDispositivoMovil()){
-        grid.classList.remove('activo');
-    }
-});
-
-document.querySelectorAll('#menu .categorias a').forEach((elemento) => {
-    elemento.addEventListener('mouseenter', (e) => {
-        if(!esDispositivoMovil()){
-            document.querySelectorAll('#menu .subcategoria').forEach((categoria) => {
-                categoria.classList.remove('activo');
-                if(categoria.dataset.categoria == e.target.dataset.categoria){
-                    categoria.classList.add('activo');
-                }
-            });
-        };
-    });
-});
-
-// EventListeners para dispositivo movil.
-document.querySelector('#btn-menu-barras').addEventListener('click', (e) => {
-    e.preventDefault();
-    if(contenedorEnlacesNav.classList.contains('activo')){
-        contenedorEnlacesNav.classList.remove('activo');
-        document.querySelector('body').style.overflow = 'visible';
-    } else {
-        contenedorEnlacesNav.classList.add('activo');
-        document.querySelector('body').style.overflow = 'hidden';
-    }
-});
-
-
-
-btnCerrarMenu.addEventListener('click', (e)=> {
-    e.preventDefault();
-    document.querySelectorAll('#menu .activo').forEach((elemento) => {
-        elemento.classList.remove('activo');
-    });
-    document.querySelector('body').style.overflow = 'visible';
-});
 
 
 
@@ -484,17 +433,14 @@ $(document).ready(function(){
         $("#DIVISION-HORIZONTAL-INTERNAMODAL").modal();
     });
 });
+
 $(document).ready(function(){
     $("#TRIPLEX").click(function(){
         $("#TRIPLEXMODAL").modal();
     });
 });
 
-$(document).ready(function(){
-    $("#DIVISION-HORIZONTAL-INTERNA").click(function(){
-        $("#DIVISION-HORIZONTAL-INTERNAMODAL").modal();
-    });
-});
+
 
 $(document).ready(function(){
     $("#PUERTAS-2").click(function(){
@@ -618,11 +564,7 @@ $(document).ready(function(){
     });
 });
 
-$(document).ready(function(){
-    $("#DIVISION-HORIZONTAL-INTERNA1").click(function(){
-        $("#DIVISION-HORIZONTAL-INTERNAMODAL").modal();
-    });
-});
+
 
 $(document).ready(function(){
     $("#PUERTAS-21").click(function(){

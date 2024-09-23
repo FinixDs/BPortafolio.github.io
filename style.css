@@ -28,6 +28,8 @@ main article {
 /* ------------------------- */
 /* Enlaces del NAV */
 /* ------------------------- */
+
+
 .menu {
     background: #232F3E;
     padding: 5px 0;
@@ -38,6 +40,14 @@ main article {
     /* display: flex; */
     display: none;
     justify-content: space-between;
+    background: #232F3E;
+}
+
+.menu .contenedor-botones-menu {
+    /* display: flex; */
+    display: none;
+    justify-content: space-between;
+    background: #232F3E;
 }
 
 .menu .contenedor-botones-menu button {
@@ -50,6 +60,14 @@ main article {
     background: none;
 }
 
+.enlaces2{
+    padding-top: 15px;
+
+ }
+.enlaces2 a{
+   padding: 15px;
+   top: 30px;
+}
 
 .menu .contenedor-botones-menu .btn-menu-cerrar.activo {
     display: inline-block;
@@ -279,21 +297,65 @@ p{
 
 body   {
         
-       
 }
+
+html{
+    scroll-behavior: smooth;
+        
+}
+
 
 footer .titulo{
          font-family: Neuton;
        src:url(font/Neuton-Light.ttf);
         font-weight:bold;
         font-style:bold;
-       
+    
 }
+
+.columna3 li{
+   font-size: 25px;
+}
+
+.columna3 li{
+    color:#a7aca1;
+ }
+ .columna3 a{
+    color: white;
+ }
+
+.iconos-redes1{
+   padding: 10px;
+}
+.iconos-redes1{
+    display: flex;
+    font-family: Neuton;
+  src:url(font/Neuton-Light.ttf);
+   font-weight:bold;
+   font-style:bold;
+  
+}
+.iconos-redes1{
+    display: flex;
+    
+}
+
+.fa-instagram{
+    display: inline;
+    font-size:30px;
+    padding-left:15px;
+}
+
+
+.fa-facebook-f{
+    display: inline;
+    font-size:30px;
+    padding-left:15px;
+ }
 
 
 .color2 {
         background: gray;
-        color: ;
 }
 
 
@@ -326,7 +388,7 @@ footer .titulo{
 a{
     text-decoration: none;
     font-size: 17pz;
-    color: whitesmoke;
+    color: #a7aca1;
     transition-duration: 0.3s;
     opacity: .9;
 }

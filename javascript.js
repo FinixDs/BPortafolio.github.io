@@ -1311,7 +1311,21 @@ pauseBtnClose23.addEventListener('click', ()=>{
     sound23.pause()
 });
 
-
-
-/*-------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------*/
 /* INCLUSION DE SONIDO PRIMER MANUAL INSTRUCTIVO*/
+
+
+
+let sound1 = new Audio("./SOUND/PIEZAS/top.mp3");
+
+playBtn1.addEventListener('click', ()=>{
+    sound1.play()
+    });
+
+pauseBtn1.addEventListener('click', ()=>{
+    sound1.pause()
+});
+pauseBtnClose1.addEventListener('click', ()=>{
+    sound1.pause()
+});
+

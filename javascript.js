@@ -1316,16 +1316,269 @@ pauseBtnClose23.addEventListener('click', ()=>{
 
 
 
-let sound1 = new Audio("./SOUND/PIEZAS/top.mp3");
+let botonsound1 = new Audio("./SOUND/KITCHEN/PIECES/SUPPORT-WALL.mp3");
 
-playBtn1.addEventListener('click', ()=>{
-    sound1.play()
+playBoton1.addEventListener('click', ()=>{
+    botonsound1.play()
     });
 
-pauseBtn1.addEventListener('click', ()=>{
-    sound1.pause()
+pauseBoton1.addEventListener('click', ()=>{
+    botonsound1.pause()
 });
-pauseBtnClose1.addEventListener('click', ()=>{
-    sound1.pause()
+pauseBotonClose1.addEventListener('click', ()=>{
+    botonsound1.pause()
 });
+
+
+
+let botonsound2 = new Audio("./SOUND/KITCHEN/PIECES/DIVISION-INTERNAL-VERTICAL.mp3");
+
+playBoton2.addEventListener('click', ()=>{
+    botonsound2.play()
+    });
+
+pauseBoton2.addEventListener('click', ()=>{
+    botonsound2.pause()
+});
+pauseBotonClose2.addEventListener('click', ()=>{
+    botonsound2.pause()
+});
+
+
+let botonsound3 = new Audio("./SOUND/KITCHEN/PIECES/DIVISION-INTERNAL-VERTICAL.mp3");
+
+playBoton3.addEventListener('click', ()=>{
+    botonsound3.play()
+    });
+
+pauseBoton3.addEventListener('click', ()=>{
+    botonsound3.pause()
+});
+pauseBotonClose3.addEventListener('click', ()=>{
+    botonsound3.pause()
+});
+
+
+let botonsound4 = new Audio("./SOUND/KITCHEN/PIECES/SIDES.mp3");
+
+playBoton4.addEventListener('click', ()=>{
+    botonsound4.play()
+    });
+
+pauseBoton4.addEventListener('click', ()=>{
+    botonsound4.pause()
+});
+pauseBotonClose4.addEventListener('click', ()=>{
+    botonsound4.pause()
+});
+
+let botonsound5 = new Audio("./SOUND/KITCHEN/PIECES/TOP-LOW.mp3");
+
+playBoton5.addEventListener('click', ()=>{
+    botonsound5.play()
+    });
+
+pauseBoton5.addEventListener('click', ()=>{
+    botonsound5.pause()
+});
+pauseBotonClose5.addEventListener('click', ()=>{
+    botonsound5.pause()
+});
+
+let botonsound6 = new Audio("./SOUND/KITCHEN/PIECES/BOARDS.mp3");
+
+playBoton6.addEventListener('click', ()=>{
+    botonsound6.play()
+    });
+
+pauseBoton6.addEventListener('click', ()=>{
+    botonsound6.pause()
+});
+pauseBotonClose6.addEventListener('click', ()=>{
+    botonsound6.pause()
+});
+
+let botonsound7 = new Audio("./SOUND/KITCHEN/PIECES/NAILS.mp3");
+
+playBoton7.addEventListener('click', ()=>{
+    botonsound7.play()
+    });
+
+pauseBoton7.addEventListener('click', ()=>{
+    botonsound7.pause()
+});
+pauseBotonClose7.addEventListener('click', ()=>{
+    botonsound7.pause()
+});
+
+let botonsound8 = new Audio("./SOUND/KITCHEN/PIECES/KNOBS.mp3");
+
+playBoton8.addEventListener('click', ()=>{
+    botonsound8.play()
+    });
+
+pauseBoton8.addEventListener('click', ()=>{
+    botonsound8.pause()
+});
+pauseBotonClose8.addEventListener('click', ()=>{
+    botonsound8.pause()
+});
+
+let botonsound9 = new Audio("./SOUND/KITCHEN/PIECES/SCREWS-ASSEMBLY.mp3");
+
+playBoton9.addEventListener('click', ()=>{
+    botonsound9.play()
+    });
+
+pauseBoton9.addEventListener('click', ()=>{
+    botonsound9.pause()
+});
+pauseBotonClose9.addEventListener('click', ()=>{
+    botonsound9.pause()
+});
+
+let botonsound10 = new Audio("./SOUND/KITCHEN/PIECES/SCREWS-BOARD.mp3");
+
+playBoton10.addEventListener('click', ()=>{
+    botonsound10.play()
+    });
+
+pauseBoton10.addEventListener('click', ()=>{
+    botonsound10.pause()
+});
+pauseBotonClose10.addEventListener('click', ()=>{
+    botonsound10.pause()
+});
+
+let botonsound11 = new Audio("./SOUND/KITCHEN/PIECES/SCREWS-ASSEMBLY.mp3");
+
+playBoton11.addEventListener('click', ()=>{
+    botonsound11.play()
+    });
+
+pauseBoton11.addEventListener('click', ()=>{
+    botonsound11.pause()
+});
+pauseBotonClose11.addEventListener('click', ()=>{
+    botonsound11.pause()
+});
+
+let botonsound12 = new Audio("./SOUND/KITCHEN/PIECES/BORDER-CUT-TOP.mp3");
+
+playBoton12.addEventListener('click', ()=>{
+    botonsound12.play()
+    });
+
+pauseBoton12.addEventListener('click', ()=>{
+    botonsound12.pause()
+});
+pauseBotonClose12.addEventListener('click', ()=>{
+    botonsound12.pause()
+});
+
+let botonsound13 = new Audio("./SOUND/KITCHEN/PIECES/BORDER-CUT-LOW.mp3");
+
+playBoton13.addEventListener('click', ()=>{
+    botonsound13.play()
+    });
+
+pauseBoton13.addEventListener('click', ()=>{
+    botonsound13.pause()
+});
+pauseBotonClose13.addEventListener('click', ()=>{
+    botonsound13.pause()
+});
+
+let botonsound14 = new Audio("./SOUND/KITCHEN/PIECES/HINGE PATCH.mp3");
+
+playBoton14.addEventListener('click', ()=>{
+    botonsound14.play()
+    });
+
+pauseBoton14.addEventListener('click', ()=>{
+    botonsound14.pause()
+});
+pauseBotonClose14.addEventListener('click', ()=>{
+    botonsound14.pause()
+});
+
+
+let botonsound15 = new Audio("./SOUND/KITCHEN/PIECES/SQUADS.mp3");
+
+playBoton15.addEventListener('click', ()=>{
+    botonsound15.play()
+    });
+
+pauseBoton15.addEventListener('click', ()=>{
+    botonsound15.pause()
+});
+pauseBotonClose15.addEventListener('click', ()=>{
+    botonsound15.pause()
+});
+
+let botonsound16 = new Audio("./SOUND/KITCHEN/PIECES/HORIZONTAL-DIVISION-INTERNAL.mp3");
+
+playBoton16.addEventListener('click', ()=>{
+    botonsound16.play()
+    });
+
+pauseBoton16.addEventListener('click', ()=>{
+    botonsound16.pause()
+});
+pauseBotonClose16.addEventListener('click', ()=>{
+    botonsound16.pause()
+});
+
+let botonsound17 = new Audio("./SOUND/KITCHEN/PIECES/SUPPORT-FORNITURE.mp3");
+
+playBoton17.addEventListener('click', ()=>{
+    botonsound17.play()
+    });
+
+pauseBoton17.addEventListener('click', ()=>{
+    botonsound17.pause()
+});
+pauseBotonClose17.addEventListener('click', ()=>{
+    botonsound17.pause()
+});
+
+let botonsound18 = new Audio("./SOUND/KITCHEN/PIECES/TRIPLEX.mp3");
+
+playBoton18.addEventListener('click', ()=>{
+    botonsound18.play()
+    });
+
+pauseBoton18.addEventListener('click', ()=>{
+    botonsound18.pause()
+});
+pauseBotonClose18.addEventListener('click', ()=>{
+    botonsound18.pause()
+});
+
+let botonsound19 = new Audio("./SOUND/KITCHEN/PIECES/SCREWS-SQUADS.mp3");
+
+playBoton19.addEventListener('click', ()=>{
+    botonsound19.play()
+    });
+
+pauseBoton19.addEventListener('click', ()=>{
+    botonsound19.pause()
+});
+pauseBotonClose19.addEventListener('click', ()=>{
+    botonsound19.pause()
+});
+
+let botonsound20 = new Audio("./SOUND/KITCHEN/PIECES/SCREWS-SQUADS.mp3");
+
+playBoton20.addEventListener('click', ()=>{
+    botonsound20.play()
+    });
+
+pauseBoton20.addEventListener('click', ()=>{
+    botonsound20.pause()
+});
+pauseBotonClose20.addEventListener('click', ()=>{
+    botonsound20.pause()
+});
+
 

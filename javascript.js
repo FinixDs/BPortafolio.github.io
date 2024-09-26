@@ -1568,7 +1568,7 @@ pauseBotonClose19.addEventListener('click', ()=>{
     botonsound19.pause()
 });
 
-let botonsound20 = new Audio("./SOUND/KITCHEN/PIECES/SCREWS-SQUADS.mp3");
+let botonsound20 = new Audio("./SOUND/KITCHEN/PIECES/DOORS.mp3");
 
 playBoton20.addEventListener('click', ()=>{
     botonsound20.play()
@@ -1581,4 +1581,510 @@ pauseBotonClose20.addEventListener('click', ()=>{
     botonsound20.pause()
 });
 
+let botonsound21 = new Audio("./SOUND/KITCHEN/STRUCTURE-ASSEMBLY/RIGHT-SIDE.mp3");
 
+playBoton21.addEventListener('click', ()=>{
+    botonsound21.play()
+    });
+
+pauseBoton21.addEventListener('click', ()=>{
+    botonsound21.pause()
+});
+pauseBotonClose21.addEventListener('click', ()=>{
+    botonsound21.pause()
+});
+
+
+let botonsound22 = new Audio("./SOUND/KITCHEN/STRUCTURE-ASSEMBLY/LEFT-SIDE.mp3");
+
+playBoton22.addEventListener('click', ()=>{
+    botonsound22.play()
+    });
+
+pauseBoton22.addEventListener('click', ()=>{
+    botonsound22.pause()
+});
+pauseBotonClose22.addEventListener('click', ()=>{
+    botonsound22.pause()
+});
+
+let botonsound23 = new Audio("./SOUND/KITCHEN/STRUCTURE-ASSEMBLY/LOW-SIDE.mp3");
+
+playBoton23.addEventListener('click', ()=>{
+    botonsound23.play()
+    });
+
+pauseBoton23.addEventListener('click', ()=>{
+    botonsound23.pause()
+});
+pauseBotonClose23.addEventListener('click', ()=>{
+    botonsound23.pause()
+});
+
+let botonsound24 = new Audio("./SOUND/KITCHEN/STRUCTURE-ASSEMBLY/DIVISION-HORIZONTAL-EXTREME-LEFT.mp3");
+
+playBoton24.addEventListener('click', ()=>{
+    botonsound24.play()
+    });
+
+pauseBoton24.addEventListener('click', ()=>{
+    botonsound24.pause()
+});
+pauseBotonClose24.addEventListener('click', ()=>{
+    botonsound24.pause()
+});
+
+let botonsound25 = new Audio("./SOUND/KITCHEN/STRUCTURE-ASSEMBLY/DIVISION-HORIZONTAL-INTERNAL-RIGHT.mp3");
+
+playBoton25.addEventListener('click', ()=>{
+    botonsound25.play()
+    });
+
+pauseBoton25.addEventListener('click', ()=>{
+    botonsound25.pause()
+});
+pauseBotonClose25.addEventListener('click', ()=>{
+    botonsound25.pause()
+});
+
+let botonsound26 = new Audio("./SOUND/KITCHEN/STRUCTURE-ASSEMBLY/DIVISION-HORIZONTAL-EXTREME-RIGHT.mp3");
+
+playBoton26.addEventListener('click', ()=>{
+    botonsound26.play()
+    });
+
+pauseBoton26.addEventListener('click', ()=>{
+    botonsound26.pause()
+});
+pauseBotonClose26.addEventListener('click', ()=>{
+    botonsound26.pause()
+});
+
+let botonsound27 = new Audio("./SOUND/KITCHEN/STRUCTURE-ASSEMBLY/DIVISION-HORIZONTAL-INTERNAL-LEFT.mp3");
+
+playBoton27.addEventListener('click', ()=>{
+    botonsound27.play()
+    });
+
+pauseBoton27.addEventListener('click', ()=>{
+    botonsound27.pause()
+});
+pauseBotonClose27.addEventListener('click', ()=>{
+    botonsound27.pause()
+});
+
+let botonsound28 = new Audio("./SOUND/KITCHEN/STRUCTURE-ASSEMBLY/TOP-SIDE.mp3");
+
+playBoton28.addEventListener('click', ()=>{
+    botonsound28.play()
+    });
+
+pauseBoton28.addEventListener('click', ()=>{
+    botonsound28.pause()
+});
+pauseBotonClose28.addEventListener('click', ()=>{
+    botonsound28.pause()
+});
+
+let botonsound29 = new Audio("./SOUND/KITCHEN/STRUCTURE-ASSEMBLY/SCREWS-SUPPORTS.mp3");
+
+playBoton29.addEventListener('click', ()=>{
+    botonsound29.play()
+    });
+
+pauseBoton29.addEventListener('click', ()=>{
+    botonsound29.pause()
+});
+pauseBotonClose29.addEventListener('click', ()=>{
+    botonsound29.pause()
+});
+
+let botonsound30 = new Audio("./SOUND/KITCHEN/STRUCTURE-ASSEMBLY/SCREWS-SUPPORTS.mp3");
+
+playBoton30.addEventListener('click', ()=>{
+    botonsound30.play()
+    });
+
+pauseBoton30.addEventListener('click', ()=>{
+    botonsound30.pause()
+});
+pauseBotonClose30.addEventListener('click', ()=>{
+    botonsound30.pause()
+});
+
+let botonsound31 = new Audio("./SOUND/KITCHEN/STRUCTURE-ASSEMBLY/SCREWS-SUPPORTS.mp3");
+
+playBoton31.addEventListener('click', ()=>{
+    botonsound31.play()
+    });
+
+pauseBoton31.addEventListener('click', ()=>{
+    botonsound31.pause()
+});
+pauseBotonClose31.addEventListener('click', ()=>{
+    botonsound31.pause()
+});
+
+let botonsound32 = new Audio("./SOUND/KITCHEN/STRUCTURE-ASSEMBLY/SCREWS-SUPPORTS.mp3");
+
+playBoton32.addEventListener('click', ()=>{
+    botonsound32.play()
+    });
+
+pauseBoton32.addEventListener('click', ()=>{
+    botonsound32.pause()
+});
+pauseBotonClose32.addEventListener('click', ()=>{
+    botonsound32.pause()
+});
+
+let botonsound33 = new Audio("./SOUND/KITCHEN/STRUCTURE-ASSEMBLY/VERTICAL-DIVISION-LEFT.mp3");
+
+playBoton33.addEventListener('click', ()=>{
+    botonsound33.play()
+    });
+
+pauseBoton33.addEventListener('click', ()=>{
+    botonsound33.pause()
+});
+pauseBotonClose33.addEventListener('click', ()=>{
+    botonsound33.pause()
+});
+
+let botonsound34 = new Audio("./SOUND/KITCHEN/STRUCTURE-ASSEMBLY/VERTICAL-DIVISION-CENTER.mp3");
+
+playBoton34.addEventListener('click', ()=>{
+    botonsound34.play()
+    });
+
+pauseBoton34.addEventListener('click', ()=>{
+    botonsound34.pause()
+});
+pauseBotonClose34.addEventListener('click', ()=>{
+    botonsound34.pause()
+});
+
+let botonsound35 = new Audio("./SOUND/KITCHEN/STRUCTURE-ASSEMBLY/VERTICAL-DIVISION-RIGHT.mp3");
+
+playBoton35.addEventListener('click', ()=>{
+    botonsound35.play()
+    });
+
+pauseBoton35.addEventListener('click', ()=>{
+    botonsound35.pause()
+});
+pauseBotonClose35.addEventListener('click', ()=>{
+    botonsound35.pause()
+});
+
+let botonsound36 = new Audio("./SOUND/KITCHEN/STRUCTURE-ASSEMBLY/REINFORCEMENT-SQUADS.mp3");
+
+playBoton36.addEventListener('click', ()=>{
+    botonsound36.play()
+    });
+
+pauseBoton36.addEventListener('click', ()=>{
+    botonsound36.pause()
+});
+pauseBotonClose36.addEventListener('click', ()=>{
+    botonsound36.pause()
+});
+
+let botonsound37 = new Audio("./SOUND/KITCHEN/STRUCTURE-ASSEMBLY/BOARD-FRONTAL.mp3");
+
+playBoton37.addEventListener('click', ()=>{
+    botonsound37.play()
+    });
+
+pauseBoton37.addEventListener('click', ()=>{
+    botonsound37.pause()
+});
+pauseBotonClose37.addEventListener('click', ()=>{
+    botonsound37.pause()
+});
+
+let botonsound38 = new Audio("./SOUND/KITCHEN/STRUCTURE-ASSEMBLY/BOARD-BACK-RIGHT.mp3");
+
+playBoton38.addEventListener('click', ()=>{
+    botonsound38.play()
+    });
+
+pauseBoton38.addEventListener('click', ()=>{
+    botonsound38.pause()
+});
+pauseBotonClose38.addEventListener('click', ()=>{
+    botonsound38.pause()
+});
+
+let botonsound39 = new Audio("./SOUND/KITCHEN/STRUCTURE-ASSEMBLY/BOARD-BACK-RIGHT.mp3");
+
+playBoton39.addEventListener('click', ()=>{
+    botonsound39.play()
+    });
+
+pauseBoton39.addEventListener('click', ()=>{
+    botonsound39.pause()
+});
+pauseBotonClose39.addEventListener('click', ()=>{
+    botonsound39.pause()
+});
+
+let botonsound40 = new Audio("./SOUND/KITCHEN/STRUCTURE-ASSEMBLY/SCREWS-STRUCTURE.mp3");
+
+playBoton40.addEventListener('click', ()=>{
+    botonsound40.play()
+    });
+
+pauseBoton40.addEventListener('click', ()=>{
+    botonsound40.pause()
+});
+pauseBotonClose40.addEventListener('click', ()=>{
+    botonsound40.pause()
+});
+
+let botonsound41 = new Audio("./SOUND/KITCHEN/STRUCTURE-ASSEMBLY/SCREWS-STRUCTURE.mp3");
+
+playBoton41.addEventListener('click', ()=>{
+    botonsound41.play()
+    });
+
+pauseBoton41.addEventListener('click', ()=>{
+    botonsound41.pause()
+});
+pauseBotonClose41.addEventListener('click', ()=>{
+    botonsound41.pause()
+});
+
+let botonsound42 = new Audio("./SOUND/KITCHEN/STRUCTURE-ASSEMBLY/SCREW-FRONTAL-BOARD.mp3");
+
+playBoton42.addEventListener('click', ()=>{
+    botonsound42.play()
+    });
+
+pauseBoton42.addEventListener('click', ()=>{
+    botonsound42.pause()
+});
+pauseBotonClose42.addEventListener('click', ()=>{
+    botonsound42.pause()
+});
+
+let botonsound43 = new Audio("./SOUND/KITCHEN/STRUCTURE-ASSEMBLY/SCREW-BACK-BOARD.mp3");
+
+playBoton43.addEventListener('click', ()=>{
+    botonsound43.play()
+    });
+
+pauseBoton43.addEventListener('click', ()=>{
+    botonsound43.pause()
+});
+pauseBotonClose43.addEventListener('click', ()=>{
+    botonsound43.pause()
+});
+
+let botonsound44 = new Audio("./SOUND/KITCHEN/STRUCTURE-ASSEMBLY/SCREW-BACK-BOARD.mp3");
+
+playBoton44.addEventListener('click', ()=>{
+    botonsound44.play()
+    });
+
+pauseBoton44.addEventListener('click', ()=>{
+    botonsound44.pause()
+});
+pauseBotonClose44.addEventListener('click', ()=>{
+    botonsound44.pause()
+});
+
+let botonsound45 = new Audio("./SOUND/KITCHEN/SECCION-PUERTAS/FRONTAL-BOARD-HOLES.mp3");
+
+playBoton45.addEventListener('click', ()=>{
+    botonsound45.play()
+    });
+
+pauseBoton45.addEventListener('click', ()=>{
+    botonsound45.pause()
+});
+pauseBotonClose45.addEventListener('click', ()=>{
+    botonsound45.pause()
+});
+
+let botonsound46 = new Audio("./SOUND/KITCHEN/SECCION-PUERTAS/EXTREME-LEFT-DOOR.mp3");
+
+playBoton46.addEventListener('click', ()=>{
+    botonsound46.play()
+    });
+
+pauseBoton46.addEventListener('click', ()=>{
+    botonsound46.pause()
+});
+pauseBotonClose46.addEventListener('click', ()=>{
+    botonsound46.pause()
+});
+
+let botonsound47 = new Audio("./SOUND/KITCHEN/SECCION-PUERTAS/EXTREME-RIGHT-DOOR.mp3");
+
+playBoton47.addEventListener('click', ()=>{
+    botonsound47.play()
+    });
+
+pauseBoton47.addEventListener('click', ()=>{
+    botonsound47.pause()
+});
+pauseBotonClose47.addEventListener('click', ()=>{
+    botonsound47.pause()
+});
+
+let botonsound48 = new Audio("./SOUND/KITCHEN/SECCION-PUERTAS/INTERNAL-RIGHT-DOOR.mp3");
+
+playBoton48.addEventListener('click', ()=>{
+    botonsound48.play()
+    });
+
+pauseBoton48.addEventListener('click', ()=>{
+    botonsound48.pause()
+});
+pauseBotonClose48.addEventListener('click', ()=>{
+    botonsound48.pause()
+});
+
+let botonsound49 = new Audio("./SOUND/KITCHEN/SECCION-PUERTAS/INTERNAL-LEFT-DOOR.mp3");
+
+playBoton49.addEventListener('click', ()=>{
+    botonsound49.play()
+    });
+
+pauseBoton49.addEventListener('click', ()=>{
+    botonsound49.pause()
+});
+pauseBotonClose49.addEventListener('click', ()=>{
+    botonsound49.pause()
+});
+
+let botonsound50 = new Audio("./SOUND/KITCHEN/SECCION-PUERTAS/HINGUE-PATCH.mp3");
+
+playBoton50.addEventListener('click', ()=>{
+    botonsound50.play()
+    });
+
+pauseBoton50.addEventListener('click', ()=>{
+    botonsound50.pause()
+});
+pauseBotonClose50.addEventListener('click', ()=>{
+    botonsound50.pause()
+});
+
+let botonsound51 = new Audio("./SOUND/KITCHEN/SECCION-PUERTAS/KNOBS.mp3");
+
+playBoton51.addEventListener('click', ()=>{
+    botonsound51.play()
+    });
+
+pauseBoton51.addEventListener('click', ()=>{
+    botonsound51.pause()
+});
+pauseBotonClose51.addEventListener('click', ()=>{
+    botonsound51.pause()
+});
+
+let botonsound52 = new Audio("./SOUND/KITCHEN/SECCION-BACK/BACK-BOARD.mp3");
+
+playBoton52.addEventListener('click', ()=>{
+    botonsound52.play()
+    });
+
+pauseBoton52.addEventListener('click', ()=>{
+    botonsound52.pause()
+});
+pauseBotonClose52.addEventListener('click', ()=>{
+    botonsound52.pause()
+});
+
+let botonsound53 = new Audio("./SOUND/KITCHEN/SECCION-BACK/NAIL.mp3");
+
+playBoton53.addEventListener('click', ()=>{
+    botonsound53.play()
+    });
+
+pauseBoton53.addEventListener('click', ()=>{
+    botonsound53.pause()
+});
+pauseBotonClose53.addEventListener('click', ()=>{
+    botonsound53.pause()
+});
+
+let botonsound54 = new Audio("./SOUND/KITCHEN/SECCION-BACK/SUPPORT-FORNITURE.mp3");
+
+playBoton54.addEventListener('click', ()=>{
+    botonsound54.play()
+    });
+
+pauseBoton54.addEventListener('click', ()=>{
+    botonsound54.pause()
+});
+pauseBotonClose54.addEventListener('click', ()=>{
+    botonsound54.pause()
+});
+
+let botonsound55 = new Audio("./SOUND/KITCHEN/SECCION-BACK/SUPPORT-WALL.mp3");
+
+playBoton55.addEventListener('click', ()=>{
+    botonsound55.play()
+    });
+
+pauseBoton55.addEventListener('click', ()=>{
+    botonsound55.pause()
+});
+pauseBotonClose55.addEventListener('click', ()=>{
+    botonsound55.pause()
+});
+
+let botonsound56 = new Audio("./SOUND/KITCHEN/SECCION-BACK/PROCESS-SUPPORT FORNITURE.mp3");
+
+playBoton56.addEventListener('click', ()=>{
+    botonsound56.play()
+    });
+
+pauseBoton56.addEventListener('click', ()=>{
+    botonsound56.pause()
+});
+pauseBotonClose56.addEventListener('click', ()=>{
+    botonsound56.pause()
+});
+
+let botonsound57 = new Audio("./SOUND/KITCHEN/SECCION-BACK/PROCESS-NAILS.mp3");
+
+playBoton57.addEventListener('click', ()=>{
+    botonsound57.play()
+    });
+
+pauseBoton57.addEventListener('click', ()=>{
+    botonsound57.pause()
+});
+pauseBotonClose57.addEventListener('click', ()=>{
+    botonsound57.pause()
+});
+
+let botonsound58 = new Audio("./SOUND/KITCHEN/SECCION-BACK/PROCESS-SUPPORT-WALL.mp3");
+
+playBoton58.addEventListener('click', ()=>{
+    botonsound58.play()
+    });
+
+pauseBoton58.addEventListener('click', ()=>{
+    botonsound58.pause()
+});
+pauseBotonClose58.addEventListener('click', ()=>{
+    botonsound58.pause()
+});
+
+let botonsound59 = new Audio("./SOUND/KITCHEN/SECCION-BACK/TRIPLEX.mp3");
+
+playBoton59.addEventListener('click', ()=>{
+    botonsound59.play()
+    });
+
+pauseBoton59.addEventListener('click', ()=>{
+    botonsound59.pause()
+});
+pauseBotonClose59.addEventListener('click', ()=>{
+    botonsound59.pause()
+});

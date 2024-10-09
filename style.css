@@ -4,7 +4,7 @@ h1{
 
 
 body {
-    background: #EAEDED;
+    background: #e2e2e2;
     font-family: Neuton;
 }
 
@@ -2449,4 +2449,8 @@ svg {
 .informacion{
     text-align: left;
     font-family: Neuton;
+}
+
+.pato{
+    margin-left: 83%;
 }

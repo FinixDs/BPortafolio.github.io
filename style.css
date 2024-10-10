@@ -1227,10 +1227,16 @@ footer{
     font-size: 50px;
 }
 svg {
-  max-width: 80%;
+  max-width: 100%;
   display: block;
   margin: 0 auto;
 }
+
+.svg1{
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
 .state {
 }
 
@@ -1240,15 +1246,13 @@ svg {
 .modal {
   text-align: center;
 
+
 }
 .modal-dialog {
     margin: 0 auto;
   }
-.modal-content {
-}
-.hq {
-  
-}
+
+
 
 .btn{
 

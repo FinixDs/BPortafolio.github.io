@@ -1,3 +1,5 @@
+
+
 h1{
     font-size: 40px;
 }
@@ -2457,4 +2459,53 @@ svg {
 
 .pato{
     margin-left: 83%;
+}
+
+
+.FRONTAL-BACKK g{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#998E0A;
+}
+.FRONTAL-BACKK g:hover{
+    stroke-width:35px;
+    stroke:#998E0A;
+    transition: 0.9s ease;
+}
+
+.LATERALESS g{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#998E0A;
+}
+.LATERALESS g:hover{
+    stroke-width:35px;
+    stroke:#998E0A;
+    transition: 0.9s ease;
+}
+
+.COVER-FRONTAL-BOX g{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#998E0A;
+}
+.COVER-FRONTAL-BOX g:hover{
+    stroke-width:35px;
+    stroke:#998E0A;
+    transition: 0.9s ease;
+}
+
+.SELECTOR-ELEMENTOS-MADERA-SUBB ellipse{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:10px;
+    stroke:#998E0A;
+}
+.SELECTOR-ELEMENTOS-MADERA-SUBB ellipse:hover{
+    stroke-width:70px;
+    stroke:#998E0A;
+    transition: 0.9s ease;
 }

@@ -197,28 +197,28 @@ $(document).ready(function(){
 
 /*TORNILLOS*/
 
-<!--LEFT SECTION-->
+/*PUERTAS*/
 $(document).ready(function(){
     $("#TORNILLOSMADERA").click(function(){
         $("#TORNILLOSMADERAMODAL").modal();
     });
 });
 
-<!--LEFT SECTION-->
+/*PUERTAS*/
 $(document).ready(function(){
     $("#TORNILLOSMADERA2").click(function(){
         $("#TORNILLOSMADERAMODAL2").modal();
     });
 });
 
-<!--LEFT SECTION-->
+/*PUERTAS*/
 $(document).ready(function(){
     $("#TORNILLOMETALICO").click(function(){
         $("#TORNILLOMETALICOMODAL").modal();
     });
 });
 
-<!--LEFT SECTION-->
+/*PUERTAS*/
 $(document).ready(function(){
     $("#TORNILLOMETALICO2").click(function(){
         $("#TORNILLOMETALICO2MODAL").modal();
@@ -234,25 +234,25 @@ $(document).ready(function(){
     });
 });
 
-<!--LEFT SECTION-->
+/*PUERTAS*/
 $(document).ready(function(){
     $("#PUERTA-INTERNA-IZQUIERDA2").click(function(){
         $("#PUERTA-EXTREMO-IZQUIERDA-MODAL").modal();
     });
 });
-<!--LEFT SECTION-->
+/*PUERTAS*/
 $(document).ready(function(){
     $("#PUERTA-CENTRAL1").click(function(){
         $("#PUERTA-CENTRAL-MODAL").modal();
     });
 });
-<!--LEFT SECTION-->
+/*PUERTAS*/
 $(document).ready(function(){
     $("#PUERTA-INTERNA-DERECHA1").click(function(){
         $("#PUERTA-EXTREMO-IZQUIERDA-MODAL").modal();
     });
 });
-<!--LEFT SECTION-->
+/*PUERTAS*/
 $(document).ready(function(){
     $("#PUERTA-EXTREMO-DERECHA2").click(function(){
         $("#PUERTA-EXTREMO-IZQUIERDA-MODAL").modal();
@@ -268,7 +268,7 @@ $(document).ready(function(){
     });
 });
 
-<!--LEFT SECTION-->
+/*PUERTAS*/
 $(document).ready(function(){
     $("#BOX").click(function(){
         $("#CAJONES1").modal();
@@ -2087,4 +2087,25 @@ pauseBoton59.addEventListener('click', ()=>{
 });
 pauseBotonClose59.addEventListener('click', ()=>{
     botonsound59.pause()
+});
+
+
+
+
+$(document).ready(function(){
+    $("#FRONTAL-BACKK").click(function(){
+        $("#TRIPLEX-CENTRALMODAL").modal();
+    });
+});
+
+$(document).ready(function(){
+    $("#LATERALESS").click(function(){
+        $("#TRIPLEX-CENTRALMODAL").modal();
+    });
+});
+
+$(document).ready(function(){
+    $("#COVER-FRONTAL-BOX").click(function(){
+        $("#TRIPLEX-CENTRALMODAL").modal();
+    });
 });

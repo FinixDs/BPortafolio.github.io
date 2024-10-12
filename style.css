@@ -288,18 +288,15 @@ main article {
 
 h2{
         font-family: Cinzel;
-        font-weight:;
+        
 }
 
 
 p{
         font-family: Neuton;
-        font-weight:;
+       
 }
 
-body   {
-        
-}
 
 html{
     scroll-behavior: smooth;
@@ -899,7 +896,7 @@ i{
 .BOX rect{
     transition: 1.0s ease;
     stroke-width:10px;
-     ursor: pointer;
+     cursor: pointer;
      stroke:#FDB313;
 }
 .BOX rect:hover{
@@ -1239,8 +1236,7 @@ svg {
     display: block;
     margin: 0 auto;
   }
-.state {
-}
+
 
 .state:hover {
   cursor: pointer;
@@ -1349,7 +1345,7 @@ svg {
 
 .selectable-elements{
     .box[data-active="true"]{
-   
+             transition: 0.9s ease;
           }
           .SELECTOR-TRIPLEX[data-active="true"]{
           stroke-width:80px;
@@ -1918,7 +1914,7 @@ svg {
           stroke-width:35px;
           stroke:#f2614a;
           transition: 0.9s ease;
-          }
+          }       
 }
 /*FIN COLOR Y HOVER CONTORNO OBJETO SELECTOR PRIMER MODULO STRUCTURE ASSEMBLY*/
 
@@ -2289,6 +2285,16 @@ svg {
       stroke:#e33c24;
       transition: 0.9s ease;
     }
+    .SELECTOR-ELEMENTOS-MADERA-SUBB[data-active="true"]{
+      stroke-width:70px;
+      stroke:#c874e9;
+      transition: 0.9s ease;
+    }
+    .SELECTOR-TRIPLEXX[data-active="true"]{
+    stroke-width:70px;
+    stroke:#5a76f1;
+    transition: 0.9s ease;
+    }
   
     
 }
@@ -2465,47 +2471,115 @@ svg {
 .FRONTAL-BACKK g{
     cursor: pointer;
     transition: 1.0s ease;
-    stroke-width:10px;
-    stroke:#998E0A;
+    stroke-width:35px;
+    stroke:#c874e9;
 }
 .FRONTAL-BACKK g:hover{
-    stroke-width:35px;
-    stroke:#998E0A;
+    stroke-width:70px;
+    stroke:#c874e9;
     transition: 0.9s ease;
 }
 
 .LATERALESS g{
     cursor: pointer;
     transition: 1.0s ease;
-    stroke-width:10px;
-    stroke:#998E0A;
+    stroke-width:35px;
+    stroke:#c874e9;
 }
 .LATERALESS g:hover{
-    stroke-width:35px;
-    stroke:#998E0A;
+    stroke-width:70px;
+    stroke:#c874e9;
     transition: 0.9s ease;
 }
 
 .COVER-FRONTAL-BOX g{
     cursor: pointer;
     transition: 1.0s ease;
-    stroke-width:10px;
-    stroke:#998E0A;
+    stroke-width:35px;
+    stroke:#c874e9;
 }
 .COVER-FRONTAL-BOX g:hover{
-    stroke-width:35px;
-    stroke:#998E0A;
+    stroke-width:70px;
+    stroke:#c874e9;
     transition: 0.9s ease;
 }
 
 .SELECTOR-ELEMENTOS-MADERA-SUBB ellipse{
     cursor: pointer;
     transition: 1.0s ease;
-    stroke-width:10px;
-    stroke:#998E0A;
+    stroke-width:50px;
+    stroke:#c874e9;
 }
 .SELECTOR-ELEMENTOS-MADERA-SUBB ellipse:hover{
     stroke-width:70px;
-    stroke:#998E0A;
+    stroke:#c874e9;
     transition: 0.9s ease;
 }
+
+.TRIPLEXX g{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:35px;
+    stroke:#5a76f1;
+}
+.TRIPLEXX g:hover{
+    stroke-width:70px;
+    stroke:#5a76f1;
+    transition: 0.9s ease;
+}
+
+.SELECTOR-TRIPLEXX ellipse{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:50px;
+    stroke:#5a76f1;
+}
+.SELECTOR-TRIPLEXX ellipse:hover{
+    stroke-width:70px;
+    stroke:#5a76f1;
+    transition: 0.9s ease;
+}
+
+.PUNTILLASS circle{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:35px;
+    stroke:#bcec38;
+}
+.PUNTILLASS circle:hover{
+    stroke-width:70px;
+    stroke:#bcec38;
+    transition: 0.9s ease;
+}
+
+.RIELES .nane{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:35px;
+    stroke:#7ce453;
+}
+.RIELES .nane:hover{
+    stroke-width:70px;
+    stroke:#7ce453;
+    transition: 0.9s ease;
+}
+
+.TORNILLOSS circle{
+    cursor: pointer;
+    transition: 1.0s ease;
+    stroke-width:35px;
+    stroke:#38b3ec;
+}
+.TORNILLOSS circle:hover{
+    stroke-width:70px;
+    stroke:#38b3ec;
+    transition: 0.9s ease;
+}
+
+
+
+
+
+
+
+

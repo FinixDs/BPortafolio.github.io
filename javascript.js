@@ -72,6 +72,39 @@ $('#fila1').children(SelectValor).show();
 });
 });
 
+$(document).on('click', '#BOX', function() {
+    $('#CAJONES1').modal('show');
+  });
+  
+  $(document).on('click', '#FRONTAL-BACKK', function() {
+    $('#FRONTAL-BACKKMODAL').modal('show');
+  });
+
+  $(document).on('click', '#LATERALESS', function() {
+    $('#LATERALESSMODAL').modal('show');
+  });
+
+  $(document).on('click', '#COVER-FRONTAL-BOX', function() {
+    $('#COVER-FRONTAL-BOXMODAL').modal('show');
+  });
+
+  $(document).on('click', '#TRIPLEXX', function() {
+    $('#TRIPLEXXMODAL').modal('show');
+  });
+
+  $(document).on('click', '#PUNTILLASS', function() {
+    $('#PUNTILLASSMODAL').modal('show');
+  });
+
+  $(document).on('click', '#RIELES', function() {
+    $('#RIELESMODAL').modal('show');
+  });
+
+  $(document).on('click', '#TORNILLOSS', function() {
+    $('#TORNILLOSSMODAL').modal('show');
+  });
+
+
  /*ESTRUCTURA*/
 
 $(document).ready(function(){
@@ -269,11 +302,7 @@ $(document).ready(function(){
 });
 
 /*PUERTAS*/
-$(document).ready(function(){
-    $("#BOX").click(function(){
-        $("#CAJONES1").modal();
-    });
-});
+
 
 /*--FIN CERRADURA - CAJONES*/
 
@@ -989,11 +1018,6 @@ $(document).ready(function(){
 
 /*FIN-PIEZAS*/
 
-const popover = new bootstrap.Popover('.example-popover', {
-    container: 'body'
-  })
-
-
 
 
 
@@ -1309,6 +1333,118 @@ pauseBtn23.addEventListener('click', ()=>{
 });
 pauseBtnClose23.addEventListener('click', ()=>{
     sound23.pause()
+});
+
+
+
+
+
+
+
+
+
+let sound24 = new Audio("./SOUND/PIEZAS/nails.mp3");
+
+playBtn24.addEventListener('click', ()=>{
+    sound24.play()
+    });
+
+pauseBtn24.addEventListener('click', ()=>{
+    sound24.pause()
+});
+pauseBtnClose24.addEventListener('click', ()=>{
+    sound24.pause()
+});
+
+let sound25 = new Audio("./SOUND/PIEZAS/nails.mp3");
+
+playBtn25.addEventListener('click', ()=>{
+    sound25.play()
+    });
+
+pauseBtn25.addEventListener('click', ()=>{
+    sound25.pause()
+});
+pauseBtnClose25.addEventListener('click', ()=>{
+    sound25.pause()
+});
+
+let sound26 = new Audio("./SOUND/PIEZAS/nails.mp3");
+
+playBtn26.addEventListener('click', ()=>{
+    sound26.play()
+    });
+
+pauseBtn26.addEventListener('click', ()=>{
+    sound26.pause()
+});
+pauseBtnClose26.addEventListener('click', ()=>{
+    sound26.pause()
+});
+
+let sound27 = new Audio("./SOUND/PIEZAS/nails.mp3");
+
+playBtn27.addEventListener('click', ()=>{
+    sound27.play()
+    });
+
+pauseBtn27.addEventListener('click', ()=>{
+    sound27.pause()
+});
+pauseBtnClose27.addEventListener('click', ()=>{
+    sound27.pause()
+});
+
+let sound28 = new Audio("./SOUND/PIEZAS/nails.mp3");
+
+playBtn28.addEventListener('click', ()=>{
+    sound28.play()
+    });
+
+pauseBtn28.addEventListener('click', ()=>{
+    sound28.pause()
+});
+pauseBtnClose28.addEventListener('click', ()=>{
+    sound28.pause()
+});
+
+let sound29 = new Audio("./SOUND/PIEZAS/nails.mp3");
+
+playBtn29.addEventListener('click', ()=>{
+    sound29.play()
+    });
+
+pauseBtn29.addEventListener('click', ()=>{
+    sound29.pause()
+});
+pauseBtnClose29.addEventListener('click', ()=>{
+    sound29.pause()
+});
+
+let sound30 = new Audio("./SOUND/PIEZAS/nails.mp3");
+
+playBtn30.addEventListener('click', ()=>{
+    sound30.play()
+    });
+
+pauseBtn30.addEventListener('click', ()=>{
+    sound30.pause()
+});
+pauseBtnClose30.addEventListener('click', ()=>{
+    sound30.pause()
+});
+
+let sound31 = new Audio("./SOUND/PIEZAS/nails.mp3");
+
+playBtn31.addEventListener('click', ()=>{
+    sound31.play()
+    });
+
+pauseBtn31.addEventListener('click', ()=>{
+    sound31.pause()
+});
+pauseBtnClose31.addEventListener('click', ()=>{
+    sound31.pause()
 });
 
 /*--------------------------------------------------------------------------------------------------------------------------*/
@@ -2092,20 +2228,17 @@ pauseBotonClose59.addEventListener('click', ()=>{
 
 
 
-$(document).ready(function(){
-    $("#FRONTAL-BACKK").click(function(){
-        $("#TRIPLEX-CENTRALMODAL").modal();
-    });
-});
 
-$(document).ready(function(){
-    $("#LATERALESS").click(function(){
-        $("#TRIPLEX-CENTRALMODAL").modal();
-    });
-});
 
-$(document).ready(function(){
-    $("#COVER-FRONTAL-BOX").click(function(){
-        $("#TRIPLEX-CENTRALMODAL").modal();
-    });
-});
+
+
+
+
+
+
+
+
+
+
+
+

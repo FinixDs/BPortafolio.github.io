@@ -4,6 +4,12 @@ h1{
     font-size: 40px;
 }
 
+.modal-header > q{
+    color: #7d8081; 
+    text-align: right;
+    right: 50%;
+}
+
 
 body {
     background: #e2e2e2;
@@ -1265,6 +1271,7 @@ svg {
 
 .button-container{
     display: inline-block;
+    text-align: center;
   }
 
 .alerta1{

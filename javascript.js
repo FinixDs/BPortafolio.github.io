@@ -1322,6 +1322,20 @@ pauseBtnClose21.addEventListener('click', ()=>{
     sound21.pause()
 });
 
+let sound22 = new Audio("./SOUND/PIEZAS/triplex-center.mp3");
+
+playBtn22.addEventListener('click', ()=>{
+    sound22.play()
+    });
+
+pauseBtn22.addEventListener('click', ()=>{
+    sound22.pause()
+});
+pauseBtnClose22.addEventListener('click', ()=>{
+    sound22.pause()
+});
+
+
 let sound23 = new Audio("./SOUND/PIEZAS/nails.mp3");
 
 playBtn23.addEventListener('click', ()=>{
@@ -1343,7 +1357,7 @@ pauseBtnClose23.addEventListener('click', ()=>{
 
 
 
-let sound24 = new Audio("./SOUND/PIEZAS/nails.mp3");
+let sound24 = new Audio("./SOUND/PIEZAS/CAJONES/SIDE-FRONTAL-BACK-BOX.mp3");
 
 playBtn24.addEventListener('click', ()=>{
     sound24.play()
@@ -1356,7 +1370,7 @@ pauseBtnClose24.addEventListener('click', ()=>{
     sound24.pause()
 });
 
-let sound25 = new Audio("./SOUND/PIEZAS/nails.mp3");
+let sound25 = new Audio("./SOUND/PIEZAS/CAJONES/SIDE-LEFT-RIGHT-BOX.mp3");
 
 playBtn25.addEventListener('click', ()=>{
     sound25.play()
@@ -1369,7 +1383,7 @@ pauseBtnClose25.addEventListener('click', ()=>{
     sound25.pause()
 });
 
-let sound26 = new Audio("./SOUND/PIEZAS/nails.mp3");
+let sound26 = new Audio("./SOUND/PIEZAS/CAJONES/SIDE-COVER-FRONTAL-BOX.mp3");
 
 playBtn26.addEventListener('click', ()=>{
     sound26.play()
@@ -1382,7 +1396,7 @@ pauseBtnClose26.addEventListener('click', ()=>{
     sound26.pause()
 });
 
-let sound27 = new Audio("./SOUND/PIEZAS/nails.mp3");
+let sound27 = new Audio("./SOUND/PIEZAS/CAJONES/SIDE-TRIPLEX-BOX.mp3");
 
 playBtn27.addEventListener('click', ()=>{
     sound27.play()
@@ -1395,7 +1409,7 @@ pauseBtnClose27.addEventListener('click', ()=>{
     sound27.pause()
 });
 
-let sound28 = new Audio("./SOUND/PIEZAS/nails.mp3");
+let sound28 = new Audio("./SOUND/PIEZAS/CAJONES/NAILS-TRIPLEX-BOX.mp3");
 
 playBtn28.addEventListener('click', ()=>{
     sound28.play()
@@ -1408,7 +1422,7 @@ pauseBtnClose28.addEventListener('click', ()=>{
     sound28.pause()
 });
 
-let sound29 = new Audio("./SOUND/PIEZAS/nails.mp3");
+let sound29 = new Audio("./SOUND/PIEZAS/CAJONES/RAILS-BOX.mp3");
 
 playBtn29.addEventListener('click', ()=>{
     sound29.play()
@@ -1421,7 +1435,7 @@ pauseBtnClose29.addEventListener('click', ()=>{
     sound29.pause()
 });
 
-let sound30 = new Audio("./SOUND/PIEZAS/nails.mp3");
+let sound30 = new Audio("./SOUND/PIEZAS/CAJONES/SCREW-BOX.mp3");
 
 playBtn30.addEventListener('click', ()=>{
     sound30.play()
@@ -1434,7 +1448,7 @@ pauseBtnClose30.addEventListener('click', ()=>{
     sound30.pause()
 });
 
-let sound31 = new Audio("./SOUND/PIEZAS/nails.mp3");
+let sound31 = new Audio("./SOUND/PIEZAS/CAJONES/BOX-ASSEMBLY.mp3");
 
 playBtn31.addEventListener('click', ()=>{
     sound31.play()

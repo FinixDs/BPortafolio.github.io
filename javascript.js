@@ -2253,6 +2253,3 @@ pauseBotonClose59.addEventListener('click', ()=>{
 
 
 
-
-
-

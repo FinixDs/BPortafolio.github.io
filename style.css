@@ -2584,22 +2584,18 @@ svg {
 }
 
 .buttons {
-    min-width: 700px;
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
   }
 
   .buttons a {
-    text-decoration: none;
-    font-size: 28px;
-    width: 120px;
-    height: 120px;
-    line-height: 90px;
+    width: 50%;
+    height: 50%;
     text-align: center;
     background: #202020;
-    border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
     transition: all .4s ease-in-out;
+    margin: 10px;
     
   }
   
@@ -2610,7 +2606,7 @@ svg {
   }
 
   .buttons svg{
-    width: 110px;
+    width: 100px;
     height: 110px;
     fill: #b4b4b4 !important;
     transition: all .4s ease-in-out;
@@ -2630,14 +2626,12 @@ svg {
   }
 
   .adelante29 svg{
-    width: 100px;
-    height: 100px;
+  
     margin-top: 10px;
   }
 
   .adelante29 svg:hover{
-    width: 100px;
-    height: 100px;
+    
     margin-top: 10px;
   }
 

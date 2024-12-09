@@ -2586,6 +2586,7 @@ svg {
 .buttons {
     display: flex;
     justify-content:space-between;
+   
   }
 
   .buttons a {
@@ -2595,8 +2596,8 @@ svg {
     background: #202020;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
     transition: all .4s ease-in-out;
-    margin: 10px;
-    
+    margin: 5px;
+
   }
   
   .buttons a:hover {
@@ -2623,16 +2624,6 @@ svg {
   .buttons svg{
     margin-top:4px ;
     
-  }
-
-  .adelante29 svg{
-  
-    margin-top: 10px;
-  }
-
-  .adelante29 svg:hover{
-    
-    margin-top: 10px;
   }
 
 
